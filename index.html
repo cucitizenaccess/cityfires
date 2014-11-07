@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Building fires in Urbana-Champaign</title>
+    <!-- Jquery -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!-- Leaflet JS -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <!-- heatmap -->
+    <script src="js/leaflet-heatmap.js"></script>
+    <script src="js/heatmap.min.js"></script>
+    <style>
+        #title { background-color: red; color: #FFF; }
+        #title h2 { margin: 0; padding: 10px; }
+        .heatmap { width: 800px; height: 600px; display: inline-block; float: left; }
+        #sidebar { position: absolute; display: inline-block; padding: 5px 15px; height: 600px; width: 310px; }
+        #infobar { width: 300px; height: 600px; }
+        #infobar-bottom { line-height: 95%; }
+        .leaflet-zoom-hide { z-index: -100; }
+        .credit { position: absolute; bottom: 0; padding: 0 20px; font-weight: bold; font-size: 10px; }
+    </style>
+</head>
+<body>
+    <div id="title">
+        <h2>Building fires in Urbana-Champaign</h2>
+    </div>
+    <div class="heatmap" id="map-canvas"></div>
+    <div id="sidebar">
+        <h4>See the map with:</h4>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary" overlay="heatmap">Heatmap Overlay</button>
+            <button type="button" class="btn" overlay="markers">Individual Markers</button>
+        </div>
+        <h4 style="border-bottom: 1px solid #AAA; padding-bottom: 5px;">Description of Fires</h4>
+        <div id="infobar">
+            <p style="color: red;"><span class="glyphicon glyphicon-arrow-left" style="margin-right: 5px;"></span>Mouse over map to see details...</p>
+            <p>The map displays the frequency of fires through the intensity of the colors.</p>
+        </div>
+        <div id="infobar-bottom"></div>
+        <div class="credit">
+            <p>Source: Champaign Fire Department, Urbana Fire Department</p>
+            <p>Made by A. H. Gorton</p>
+        </div>
+    </div>
+</body>
+<script src="json/data.json"></script>
+<script src="json/fire_data.json"></script>
+<script>
+    window.onload = function() {
+
+        // base tiles from mapbox
+        var baseLayer = L.tileLayer(
+                'http://{s}.tiles.mapbox.com/v3/actongorton.k4j5opc1/{z}/{x}/{y}.png', {
+                    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                    maxZoom: 18
+                }
+        );
+
+        // heatmap configuration
+        var cfg = {
+            "radius": 20,
+            "maxOpacity": .9,
+            "minOpacity": .18,
+            "useLocalExtrema": true,
+            latField: 'latitude',
+            lngField: 'longitude',
+            valueField: 'value',
+            blur: .5
+        };
+
+        // associate the configuration with the heatmap
+        var heatmapLayer = new HeatmapOverlay(cfg);
+
+        // add additional fire data to map
+        var place_data = [];
+
+
+        for (x in fire_data.data){
+            var info = [];
+
+            for (xx in data){
+
+                if (data[xx]['address'] == fire_data.data[x]["address"]){
+
+                    // create an object
+                    var event = {
+                        eventDate: data[xx].date,
+                        eventAddress: data[xx].address,
+                    };
+
+                    info.push(event)
+                }
+            }
+
+            place_data.push({
+                latitude: fire_data.data[x]['latitude'],
+                longitude: fire_data.data[x]['longitude'],
+                record: info
+            })
+
+        }
+
+        // heatmap: points of interest
+        var firePlaceHeatLayer = [];
+
+        for (abc in place_data){
+            var hz = L.circleMarker([place_data[abc].latitude, place_data[abc].longitude], {
+                riseOnHover: true,
+                color: false,
+                fillColor: false,
+                fillOpacity: .01,
+                radius: 20,
+                property: place_data[abc].record
+            })
+                    .on('mouseover', function(){
+                        var infobox = "";
+                        for (u in this.options.property){
+                            infobox = infobox +
+                            "<b><span class='glyphicon glyphicon-fire' style='color: red; margin-right: 5px;'></span>" +
+                            this.options.property[u].eventAddress + "</b><br><span style='font-size: 11px;'>" +
+                            this.options.property[u].eventDate +
+                            "</span><br><br>"
+                        }
+                        $('#infobar').fadeOut('fast');
+                        $('#infobar-bottom').html(infobox);
+                    });
+
+            firePlaceHeatLayer.push(hz)
+        }
+
+        // marker: points of interest
+        var firePlaceMarkerLayer = [];
+
+        for (abc in place_data){
+            var hzz = L.marker([place_data[abc].latitude, place_data[abc].longitude], {
+                color: false,
+                fillColor: false,
+                fillOpacity: .01,
+                radius: 20,
+                property: place_data[abc].record
+            })
+                    .on('mouseover', function(){
+                        var infobox = "";
+                        for (u in this.options.property){
+                            infobox = infobox +
+                            "<b><span class='glyphicon glyphicon-fire' style='color: red; margin-right: 5px;'></span>" +
+                            this.options.property[u].eventAddress + "</b><br><span style='font-size: 11px;'>" +
+                            this.options.property[u].eventDate +
+                            "</span><br><br>"
+                        }
+                        $('#infobar').fadeOut('fast');
+                        $('#infobar-bottom').html(infobox);
+                    });
+
+            firePlaceMarkerLayer.push(hzz)
+        }
+
+        var collectionHeat = L.featureGroup(firePlaceHeatLayer);
+        var collectionMarker = L.layerGroup(firePlaceMarkerLayer);
+
+        // load the map
+        var map = new L.Map('map-canvas', {
+            center: new L.LatLng(40.101852, -88.226953),
+            zoom: 12,
+            layers: [baseLayer, heatmapLayer, collectionHeat]
+        });
+
+        // fire!!!
+        heatmapLayer.setData(fire_data);
+
+
+        // show or hide info in sidebar
+        $('#map-canvas').mouseleave(function(){
+            $('#infobar').fadeIn('fast');
+            $('#infobar-bottom').html('')
+        });
+
+        $('button').click(function() {
+            if ($(this).attr('overlay') == 'markers'){
+                $(this).addClass('btn-primary');
+                $("button[overlay='heatmap']").removeClass('btn-primary');
+                map.removeLayer(heatmapLayer);
+                map.addLayer(collectionMarker);
+            }
+            else if ($(this).attr('overlay') == 'heatmap'){
+                $(this).addClass('btn-primary');
+                $("button[overlay='markers']").removeClass('btn-primary');
+                map.removeLayer(collectionMarker);
+                map.addLayer(heatmapLayer);
+                // collectionHeat.setZIndex(9);
+                pane.style.zIndex = 10;
+            }
+        })
+    }
+</script>
+</html>
