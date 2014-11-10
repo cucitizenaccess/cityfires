@@ -136,8 +136,20 @@
         // marker: points of interest
         var firePlaceMarkerLayer = [];
 
+        // map markers
+        var leafIcon = L.icon({
+            iconUrl: 'images/map-marker.png',
+            // shadowUrl: 'images/map-marker-shadow.png',
+            iconSize:     [10, 10],
+            shadowSize:   [0, 0],
+            iconAnchor:   [20, 20],
+            shadowAnchor: [0, 0],
+            popupAnchor:  [-3, -76]
+        });
+
         for (abc in place_data){
             var hzz = L.marker([place_data[abc].latitude, place_data[abc].longitude], {
+                icon: leafIcon,
                 color: false,
                 fillColor: false,
                 fillOpacity: .01,
