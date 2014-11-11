@@ -1,1870 +1,3117 @@
 var data = [
 	{
-		"date":"September 20, 2014",
-		"address":"1030 East Kerr Avenue, Urbana"
+		"date":"3/1/2011",
+		"address":"1 Daugherty Court, Champaign",
+		"value":"1",
+		"latitude":"40.107524",
+		"longitude":"-88.247456"
 	},
 	{
-		"date":"June 27, 2014",
-		"address":"104 Buena Vista Drive, Champaign"
+		"date":"6/28/2009",
+		"address":"1001 South Lierman Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1042386",
+		"longitude":"-88.1886847"
 	},
 	{
-		"date":"January 31, 2014",
-		"address":"106 South Gregory Street, Urbana"
+		"date":"4/24/2012",
+		"address":"1002 North Mathews Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.121495",
+		"longitude":"-88.225543"
 	},
 	{
-		"date":"May 5, 2014",
-		"address":"106 South Gregory Street, Urbana"
+		"date":"7/7/2013",
+		"address":"1002 North Mathews Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.121495",
+		"longitude":"-88.225543"
 	},
 	{
-		"date":"January 30, 2014",
-		"address":"University of Illinois at Urbana-Champaign, 1102 South Goodwin Avenue, Urbana"
+		"date":"11/3/2008",
+		"address":"1002 South Race Street, Urbana",
+		"value":"1",
+		"latitude":"40.1039107",
+		"longitude":"-88.2088773"
 	},
 	{
-		"date":"July 27, 2014",
-		"address":"1102 Centennial Drive, Champaign"
+		"date":"5/22/2012",
+		"address":"1002 South Race Street, Urbana",
+		"value":"1",
+		"latitude":"40.1039107",
+		"longitude":"-88.2088773"
 	},
 	{
-		"date":"March 15, 2014",
-		"address":"1109 Country Lake Drive, Champaign"
+		"date":"3/13/2013",
+		"address":"1004 East Kerr Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1220905",
+		"longitude":"-88.1965147"
 	},
 	{
-		"date":"April 5, 2014",
-		"address":"1118 Austin Drive, Urbana"
+		"date":"11/30/2013",
+		"address":"1004 West Stoughton Street, Urbana",
+		"value":"1",
+		"latitude":"40.113825",
+		"longitude":"-88.221146"
 	},
 	{
-		"date":"May 18, 2014",
-		"address":"1200 West University Avenue, Urbana"
+		"date":"10/20/2009",
+		"address":"1005 North Cunningham Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1225095",
+		"longitude":"-88.2017296"
 	},
 	{
-		"date":"August 3, 2014",
-		"address":"1203 North Coler Avenue, Urbana"
+		"date":"10/31/2009",
+		"address":"1006 East Kerr Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.122092",
+		"longitude":"-88.1963136"
 	},
 	{
-		"date":"May 12, 2014",
-		"address":"1206 Dorie Miller Drive, Champaign"
+		"date":"9/2/2012",
+		"address":"1006 North Broadway Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.122348",
+		"longitude":"-88.207305"
 	},
 	{
-		"date":"January 29, 2014",
-		"address":"University of Illinois at Urbana-Champaign, 1207 West Gregory Drive, Urbana"
+		"date":"6/10/2009",
+		"address":"1006 Smith Road, Urbana",
+		"value":"1",
+		"latitude":"40.1049384",
+		"longitude":"-88.1764253"
 	},
 	{
-		"date":"May 21, 2014",
-		"address":"1215 Gertrude Avenue, Champaign"
+		"date":"8/30/2009",
+		"address":"1007 North Walnut Street, Champaign",
+		"value":"1",
+		"latitude":"40.1256429",
+		"longitude":"-88.24145"
 	},
 	{
-		"date":"July 23, 2014",
-		"address":"124 West White Street, Champaign"
+		"date":"2/15/2009",
+		"address":"1008 North Willis Street, Champaign",
+		"value":"1",
+		"latitude":"40.1261108",
+		"longitude":"-88.2601824"
 	},
 	{
-		"date":"April 3, 2014",
-		"address":"1302 Sunset Drive, Champaign"
+		"date":"12/17/2013",
+		"address":"1011 West University Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.116124",
+		"longitude":"-88.222133"
 	},
 	{
-		"date":"August 26, 2014",
-		"address":"1401 Philo Road, Urbana"
+		"date":"7/20/2011",
+		"address":"1012 Austin Drive, Urbana",
+		"value":"1",
+		"latitude":"40.104219",
+		"longitude":"-88.187251"
 	},
 	{
-		"date":"January 12, 2014",
-		"address":"1404 Greenridge Drive, Urbana"
+		"date":"10/31/2011",
+		"address":"102 Meadow Drive, Urbana",
+		"value":"1",
+		"latitude":"40.097006",
+		"longitude":"-88.20753"
 	},
 	{
-		"date":"April 9, 2014",
-		"address":"1606 Glen Burnie Drive, Champaign"
+		"date":"6/7/2011",
+		"address":"103 South 3rd Street, Champaign",
+		"value":"1",
+		"latitude":"40.1159017",
+		"longitude":"-88.2356461"
 	},
 	{
-		"date":"July 12, 2014",
-		"address":"1712 South Prospect Avenue, Champaign"
+		"date":"9/20/2014",
+		"address":"1030 East Kerr Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1220953",
+		"longitude":"-88.1957781"
 	},
 	{
-		"date":"April 13, 2014",
-		"address":"1732 East Florida Avenue, Urbana"
+		"date":"6/27/2014",
+		"address":"104 Buena Vista Drive, Champaign",
+		"value":"1",
+		"latitude":"40.101523",
+		"longitude":"-88.245025"
 	},
 	{
-		"date":"April 12, 2014",
-		"address":"1806 Mayfair Road, Champaign"
+		"date":"11/28/2012",
+		"address":"105 East John Street, Champaign",
+		"value":"1",
+		"latitude":"40.1087459",
+		"longitude":"-88.237974"
 	},
 	{
-		"date":"April 15, 2014",
-		"address":"1901 North Market Street, Champaign"
+		"date":"5/18/2009",
+		"address":"106 North Webber Street, Urbana",
+		"value":"1",
+		"latitude":"40.1134717",
+		"longitude":"-88.19901"
 	},
 	{
-		"date":"August 21, 2014",
-		"address":"1905 North Cunningham Avenue, Urbana"
+		"date":"1/31/2014",
+		"address":"106 South Gregory Street, Urbana",
+		"value":"2",
+		"latitude":"40.111771",
+		"longitude":"-88.220203"
 	},
 	{
-		"date":"April 4, 2014",
-		"address":"2006 Parkdale Drive, Champaign"
+		"date":"5/5/2014",
+		"address":"106 South Gregory Street, Urbana",
+		"value":"1",
+		"latitude":"40.111771",
+		"longitude":"-88.220203"
 	},
 	{
-		"date":"March 10, 2014",
-		"address":"201 South Busey Avenue, Urbana"
+		"date":"8/16/2009",
+		"address":"108 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.110515",
+		"longitude":"-88.237634"
 	},
 	{
-		"date":"April 12, 2014",
-		"address":"2012 Vawter Street, Urbana"
+		"date":"10/17/2013",
+		"address":"108 East John Street, Champaign",
+		"value":"1",
+		"latitude":"40.109353",
+		"longitude":"-88.23774"
 	},
 	{
-		"date":"April 27, 2014",
-		"address":"2017 Cynthia Drive, Champaign"
+		"date":"8/29/2009",
+		"address":"108 Kenwood Road, Champaign",
+		"value":"1",
+		"latitude":"40.1145789",
+		"longitude":"-88.2861091"
 	},
 	{
-		"date":"April 29, 2014",
-		"address":"206 Hartle Avenue, Urbana"
+		"date":"8/1/2013",
+		"address":"108 South Mattis Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1157862",
+		"longitude":"-88.2765173"
 	},
 	{
-		"date":"January 20, 2014",
-		"address":"207 East John Street, Champaign"
+		"date":"12/23/2013",
+		"address":"109 West John Street, Champaign",
+		"value":"2",
+		"latitude":"40.108525",
+		"longitude":"-88.244056"
 	},
 	{
-		"date":"June 15, 2014",
-		"address":"209 West Beardsley Avenue, Champaign"
+		"date":"1/24/2012",
+		"address":"1092 Pomona Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1263342",
+		"longitude":"-88.2939654"
 	},
 	{
-		"date":"June 25, 2014",
-		"address":"2130 Peach Street, Champaign"
+		"date":"7/27/2014",
+		"address":"1102 Centennial Drive, Champaign",
+		"value":"1",
+		"latitude":"40.104312",
+		"longitude":"-88.29048"
 	},
 	{
-		"date":"January 31, 2014",
-		"address":"2207 Philo Road, Urbana"
+		"date":"7/1/2011",
+		"address":"1102 North James Street, Champaign",
+		"value":"1",
+		"latitude":"40.126745",
+		"longitude":"-88.265021"
 	},
 	{
-		"date":"June 13, 2014",
-		"address":"2301 North Prospect Avenue, Champaign"
+		"date":"12/11/2009",
+		"address":"1102 South Lincoln Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1034719",
+		"longitude":"-88.218827"
 	},
 	{
-		"date":"May 3, 2014",
-		"address":"2412 Prairie Green Drive, Urbana"
+		"date":"2/18/2012",
+		"address":"1102 Wabash Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1037589",
+		"longitude":"-88.196319"
 	},
 	{
-		"date":"June 12, 2014",
-		"address":"2419 North Neil Street, Champaign"
+		"date":"5/24/2012",
+		"address":"1103 North Market Street, Champaign",
+		"value":"1",
+		"latitude":"40.126305",
+		"longitude":"-88.239144"
 	},
 	{
-		"date":"June 13, 2014",
-		"address":"2702 Boulder Drive, Urbana"
+		"date":"2/21/2011",
+		"address":"1103 West Hill Street, Urbana",
+		"value":"1",
+		"latitude":"40.118885",
+		"longitude":"-88.222172"
 	},
 	{
-		"date":"February 1, 2014",
-		"address":"302 East Park Street, Champaign"
+		"date":"5/1/2009",
+		"address":"1104 East Main Street, Urbana",
+		"value":"1",
+		"latitude":"40.11323",
+		"longitude":"-88.195383"
 	},
 	{
-		"date":"March 19, 2014",
-		"address":"302 East Armory Avenue, Champaign"
+		"date":"1/12/2009",
+		"address":"1105 East Harding Drive, Urbana",
+		"value":"1",
+		"latitude":"40.093594",
+		"longitude":"-88.194057"
 	},
 	{
-		"date":"June 27, 2014",
-		"address":"Country Fair Shopping Center, 302 South Country Fair Drive, Champaign"
+		"date":"10/9/2009",
+		"address":"1105 South 1st Street, Champaign",
+		"value":"1",
+		"latitude":"40.104873",
+		"longitude":"-88.2390209"
 	},
 	{
-		"date":"May 10, 2014",
-		"address":"310 South Prospect Avenue, Champaign"
+		"date":"6/10/2008",
+		"address":"1106 East Delaware Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.099435",
+		"longitude":"-88.194869"
 	},
 	{
-		"date":"August 7, 2014",
-		"address":"401 Dale Lane, Urbana"
+		"date":"4/30/2013",
+		"address":"1106 East Main Street, Urbana",
+		"value":"1",
+		"latitude":"40.113225",
+		"longitude":"-88.195064"
 	},
 	{
-		"date":"April 5, 2014",
-		"address":"410 East Green Street, Champaign"
+		"date":"3/3/2013",
+		"address":"1106 West Eureka Street, Champaign",
+		"value":"1",
+		"latitude":"40.125753",
+		"longitude":"-88.263316"
 	},
 	{
-		"date":"March 25, 2014",
-		"address":"422 East Bradley Avenue, Champaign"
+		"date":"12/25/2008",
+		"address":"1106 West Stoughton Street, Urbana",
+		"value":"1",
+		"latitude":"40.113814",
+		"longitude":"-88.223048"
 	},
 	{
-		"date":"February 5, 2014",
-		"address":"506 East Michigan Avenue, Urbana"
+		"date":"6/24/2013",
+		"address":"1107 East Florida Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.097814",
+		"longitude":"-88.194147"
 	},
 	{
-		"date":"May 27, 2014",
-		"address":"523 Nathaniel Burch Drive, Champaign"
+		"date":"10/8/2013",
+		"address":"1107 Lincolnshire Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0970299",
+		"longitude":"-88.264526"
 	},
 	{
-		"date":"August 9, 2014",
-		"address":"614 Dogwood Drive, Champaign"
+		"date":"5/5/2013",
+		"address":"1107 West Hill Street, Urbana",
+		"value":"1",
+		"latitude":"40.1188829",
+		"longitude":"-88.222594"
 	},
 	{
-		"date":"June 17, 2014",
-		"address":"702 Crescent Drive, Champaign"
+		"date":"8/28/2013",
+		"address":"1108 Fairview Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1200708",
+		"longitude":"-88.2236965"
 	},
 	{
-		"date":"February 28, 2014",
-		"address":"703 Haines Boulevard, Champaign"
+		"date":"3/8/2010",
+		"address":"1108 Hollycrest Drive, Champaign",
+		"value":"1",
+		"latitude":"40.103716",
+		"longitude":"-88.2799129"
 	},
 	{
-		"date":"June 12, 2014",
-		"address":"705 Kenwood Road, Champaign"
+		"date":"3/15/2014",
+		"address":"1109 Country Lake Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0876598",
+		"longitude":"-88.2706729"
 	},
 	{
-		"date":"May 27, 2014",
-		"address":"803 Sunny Lane, Urbana"
+		"date":"2/26/2012",
+		"address":"1109 Kenwood Road, Champaign",
+		"value":"1",
+		"latitude":"40.103758",
+		"longitude":"-88.286261"
 	},
 	{
-		"date":"March 7, 2014",
-		"address":"808 South 1st Street, Champaign"
+		"date":"6/19/2011",
+		"address":"1109 West Springfield Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.112452",
+		"longitude":"-88.263535"
 	},
 	{
-		"date":"May 31, 2014",
-		"address":"904 East Park Street, Urbana"
+		"date":"4/29/2011",
+		"address":"111 Chalmers Street, Champaign",
+		"value":"1",
+		"latitude":"40.1064959",
+		"longitude":"-88.2415462"
 	},
 	{
-		"date":"September 20, 2014",
-		"address":"906 North Mckinley Avenue, Champaign"
+		"date":"5/5/2010",
+		"address":"111 West Vine Street, Champaign",
+		"value":"1",
+		"latitude":"40.121942",
+		"longitude":"-88.244962"
 	},
 	{
-		"date":"January 26, 2014",
-		"address":"University of Illinois at Urbana-Champaign, 909 South 5th Street, Champaign"
+		"date":"10/10/2009",
+		"address":"1111 West Charles Street, Champaign",
+		"value":"1",
+		"latitude":"40.106073",
+		"longitude":"-88.263598"
 	},
 	{
-		"date":"March 1, 2011",
-		"address":"1 Daugherty Court, Champaign"
+		"date":"6/5/2010",
+		"address":"1117 North Northwood Drive, Champaign",
+		"value":"1",
+		"latitude":"40.128678",
+		"longitude":"-88.26507"
 	},
 	{
-		"date":"August 30, 2009",
-		"address":"1007 North Walnut Street, Champaign"
+		"date":"4/5/2014",
+		"address":"1118 Austin Drive, Urbana",
+		"value":"1",
+		"latitude":"40.102237",
+		"longitude":"-88.187201"
 	},
 	{
-		"date":"February 15, 2009",
-		"address":"1008 North Willis Street, Champaign"
+		"date":"10/11/2012",
+		"address":"112 East Garwood Street, Champaign",
+		"value":"1",
+		"latitude":"40.128721",
+		"longitude":"-88.237544"
 	},
 	{
-		"date":"June 7, 2011",
-		"address":"103 South 3rd Street, Champaign"
+		"date":"8/20/2010",
+		"address":"112 East Park Street, Champaign",
+		"value":"1",
+		"latitude":"40.117619",
+		"longitude":"-88.237554"
 	},
 	{
-		"date":"November 28, 2012",
-		"address":"105 East John Street, Champaign"
+		"date":"10/19/2009",
+		"address":"113 East Roper Street, Champaign",
+		"value":"1",
+		"latitude":"40.130099",
+		"longitude":"-88.237534"
 	},
 	{
-		"date":"August 29, 2009",
-		"address":"108 Kenwood Road, Champaign"
+		"date":"11/5/2011",
+		"address":"1132 Pomona Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1272787",
+		"longitude":"-88.2938153"
 	},
 	{
-		"date":"August 16, 2009",
-		"address":"108 East Green Street, Champaign"
+		"date":"3/1/2009",
+		"address":"115 North Webber Street, Urbana",
+		"value":"1",
+		"latitude":"40.114094",
+		"longitude":"-88.199589"
 	},
 	{
-		"date":"October 17, 2013",
-		"address":"108 East John Street, Champaign"
+		"date":"2/16/2009",
+		"address":"1200 Eastern Drive, Urbana",
+		"value":"1",
+		"latitude":"40.104519",
+		"longitude":"-88.194438"
 	},
 	{
-		"date":"August 1, 2013",
-		"address":"108 South Mattis Avenue, Champaign"
+		"date":"5/18/2014",
+		"address":"1200 West University Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1169949",
+		"longitude":"-88.2249375"
 	},
 	{
-		"date":"December 23, 2013",
-		"address":"109 West John Street, Champaign"
+		"date":"5/20/2010",
+		"address":"1202 East Harding Drive, Urbana",
+		"value":"1",
+		"latitude":"40.094091",
+		"longitude":"-88.193978"
 	},
 	{
-		"date":"December 23, 2013",
-		"address":"109 West John Street, Champaign"
+		"date":"8/3/2014",
+		"address":"1203 North Coler Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.123021",
+		"longitude":"-88.2161409"
 	},
 	{
-		"date":"January 24, 2012",
-		"address":"1092 Pomona Drive, Champaign"
+		"date":"7/21/2012",
+		"address":"1205 Garden Hills Drive, Champaign",
+		"value":"2",
+		"latitude":"40.127939",
+		"longitude":"-88.271987"
 	},
 	{
-		"date":"July 1, 2011",
-		"address":"1102 North James Street, Champaign"
+		"date":"2/22/2010",
+		"address":"1205 West Bradley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.127048",
+		"longitude":"-88.265912"
 	},
 	{
-		"date":"May 24, 2012",
-		"address":"1103 North Market Street, Champaign"
+		"date":"5/11/2009",
+		"address":"1205 West Bradley Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1271",
+		"longitude":"-88.225109"
 	},
 	{
-		"date":"October 9, 2009",
-		"address":"1105 South 1st Street, Champaign"
+		"date":"5/12/2014",
+		"address":"1206 Dorie Miller Drive, Champaign",
+		"value":"1",
+		"latitude":"40.127995",
+		"longitude":"-88.226501"
 	},
 	{
-		"date":"March 3, 2013",
-		"address":"1106 West Eureka Street, Champaign"
+		"date":"6/9/2011",
+		"address":"1206 Parkland Court, Champaign",
+		"value":"1",
+		"latitude":"40.128365",
+		"longitude":"-88.278187"
 	},
 	{
-		"date":"October 8, 2013",
-		"address":"1107 Lincolnshire Drive, Champaign"
+		"date":"2/15/2009",
+		"address":"1207 East Florida Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.0983538",
+		"longitude":"-88.1940533"
 	},
 	{
-		"date":"March 8, 2010",
-		"address":"1108 Hollycrest Drive, Champaign"
+		"date":"10/21/2012",
+		"address":"1207 Garden Lane, Champaign",
+		"value":"1",
+		"latitude":"40.1282489",
+		"longitude":"-88.246916"
 	},
 	{
-		"date":"February 26, 2012",
-		"address":"1109 Kenwood Road, Champaign"
+		"date":"12/3/2008",
+		"address":"1207 West Hill Street, Urbana",
+		"value":"1",
+		"latitude":"40.119043",
+		"longitude":"-88.225086"
 	},
 	{
-		"date":"June 19, 2011",
-		"address":"1109 West Springfield Avenue, Champaign"
+		"date":"4/28/2011",
+		"address":"1208 North Wright Street, Urbana",
+		"value":"1",
+		"latitude":"40.12419",
+		"longitude":"-88.2284088"
 	},
 	{
-		"date":"April 29, 2011",
-		"address":"111 Chalmers Street, Champaign"
+		"date":"10/4/2010",
+		"address":"1208 West Hill Street, Urbana",
+		"value":"1",
+		"latitude":"40.119588",
+		"longitude":"-88.225038"
 	},
 	{
-		"date":"May 5, 2010",
-		"address":"111 West Vine Street, Champaign"
+		"date":"10/4/2009",
+		"address":"1209 East Main Street, Urbana",
+		"value":"1",
+		"latitude":"40.1126624",
+		"longitude":"-88.1936325"
 	},
 	{
-		"date":"October 10, 2009",
-		"address":"1111 West Charles Street, Champaign"
+		"date":"6/15/2011",
+		"address":"1209 Wilshire Court, Champaign",
+		"value":"1",
+		"latitude":"40.076583",
+		"longitude":"-88.264815"
 	},
 	{
-		"date":"June 5, 2010",
-		"address":"1117 North Northwood Drive, Champaign"
+		"date":"12/18/2012",
+		"address":"1214 Mimosa Drive, Champaign",
+		"value":"1",
+		"latitude":"40.125266",
+		"longitude":"-88.267003"
 	},
 	{
-		"date":"October 11, 2012",
-		"address":"112 East Garwood Street, Champaign"
+		"date":"5/21/2014",
+		"address":"1215 Gertrude Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.133695",
+		"longitude":"-88.266471"
 	},
 	{
-		"date":"August 20, 2010",
-		"address":"112 East Park Street, Champaign"
+		"date":"7/23/2014",
+		"address":"124 West White Street, Champaign",
+		"value":"1",
+		"latitude":"40.114647",
+		"longitude":"-88.244919"
 	},
 	{
-		"date":"August 4, 2011",
-		"address":"Oak Court, Champaign"
+		"date":"8/17/2010",
+		"address":"1301 Garden Hills Drive, Champaign",
+		"value":"1",
+		"latitude":"40.128653",
+		"longitude":"-88.271992"
 	},
 	{
-		"date":"October 19, 2009",
-		"address":"113 East Roper Street, Champaign"
+		"date":"12/14/2012",
+		"address":"1302 Fairfax Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1471136",
+		"longitude":"-88.2684787"
 	},
 	{
-		"date":"November 5, 2011",
-		"address":"1132 Pomona Drive, Champaign"
+		"date":"2/1/2009",
+		"address":"1302 Hickory Street, Champaign",
+		"value":"1",
+		"latitude":"40.128663",
+		"longitude":"-88.24199"
 	},
 	{
-		"date":"April 12, 2009",
-		"address":"University of Illinois at Urbana-Champaign, 1203 South 4th Street, Champaign"
+		"date":"7/29/2010",
+		"address":"1302 Silver Street, Urbana",
+		"value":"1",
+		"latitude":"40.09172",
+		"longitude":"-88.19285"
 	},
 	{
-		"date":"July 21, 2012",
-		"address":"1205 Garden Hills Drive, Champaign"
+		"date":"4/3/2014",
+		"address":"1302 Sunset Drive, Champaign",
+		"value":"1",
+		"latitude":"40.128921",
+		"longitude":"-88.250045"
 	},
 	{
-		"date":"July 21, 2012",
-		"address":"1205 Garden Hills Drive, Champaign"
+		"date":"5/29/2008",
+		"address":"1302 West Dublin Street, Urbana",
+		"value":"1",
+		"latitude":"40.12144",
+		"longitude":"-88.226015"
 	},
 	{
-		"date":"February 22, 2010",
-		"address":"1205 West Bradley Avenue, Champaign"
+		"date":"11/3/2010",
+		"address":"1303 North Cunningham Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.126448",
+		"longitude":"-88.202394"
 	},
 	{
-		"date":"June 9, 2011",
-		"address":"1206 Parkland Court, Champaign"
+		"date":"3/7/2013",
+		"address":"1304 East Michigan Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.101831",
+		"longitude":"-88.1926979"
 	},
 	{
-		"date":"October 21, 2012",
-		"address":"1207 Garden Lane, Champaign"
+		"date":"1/18/2010",
+		"address":"1305 Garden Lane, Champaign",
+		"value":"1",
+		"latitude":"40.128901",
+		"longitude":"-88.245952"
 	},
 	{
-		"date":"June 15, 2011",
-		"address":"1209 Wilshire Court, Champaign"
+		"date":"5/20/2010",
+		"address":"1306 Silver Street, Urbana",
+		"value":"1",
+		"latitude":"40.091722",
+		"longitude":"-88.192125"
 	},
 	{
-		"date":"December 18, 2012",
-		"address":"1214 Mimosa Drive, Champaign"
+		"date":"8/9/2011",
+		"address":"1306 Silver Street, Urbana",
+		"value":"1",
+		"latitude":"40.091722",
+		"longitude":"-88.192125"
 	},
 	{
-		"date":"August 17, 2010",
-		"address":"1301 Garden Hills Drive, Champaign"
+		"date":"4/3/2008",
+		"address":"1307 East Florida Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.098023",
+		"longitude":"-88.192765"
 	},
 	{
-		"date":"December 14, 2012",
-		"address":"1302 Fairfax Drive, Champaign"
+		"date":"5/21/2011",
+		"address":"1308 South Duncan Road, Champaign",
+		"value":"1",
+		"latitude":"40.10127",
+		"longitude":"-88.294948"
 	},
 	{
-		"date":"February 1, 2009",
-		"address":"1302 Hickory Street, Champaign"
+		"date":"1/11/2010",
+		"address":"1309 Sunset Drive, Champaign",
+		"value":"1",
+		"latitude":"40.129733",
+		"longitude":"-88.250603"
 	},
 	{
-		"date":"January 18, 2010",
-		"address":"1305 Garden Lane, Champaign"
+		"date":"9/7/2010",
+		"address":"1322 Honeysuckle Lane, Champaign",
+		"value":"1",
+		"latitude":"40.134335",
+		"longitude":"-88.26889"
 	},
 	{
-		"date":"May 21, 2011",
-		"address":"1308 South Duncan Road, Champaign"
+		"date":"12/14/2011",
+		"address":"1339 North Lincoln Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1249864",
+		"longitude":"-88.2195001"
 	},
 	{
-		"date":"January 11, 2010",
-		"address":"1309 Sunset Drive, Champaign"
+		"date":"5/30/2009",
+		"address":"1401 North Mckinley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1304469",
+		"longitude":"-88.263236"
 	},
 	{
-		"date":"September 7, 2010",
-		"address":"1322 Honeysuckle Lane, Champaign"
+		"date":"8/26/2014",
+		"address":"1401 Philo Road, Urbana",
+		"value":"1",
+		"latitude":"40.1007707",
+		"longitude":"-88.1908217"
 	},
 	{
-		"date":"May 30, 2009",
-		"address":"1401 North Mckinley Avenue, Champaign"
+		"date":"1/12/2014",
+		"address":"1404 Greenridge Drive, Urbana",
+		"value":"2",
+		"latitude":"40.101616",
+		"longitude":"-88.177044"
 	},
 	{
-		"date":"April 13, 2011",
-		"address":"1405 North Neil Street, Champaign"
+		"date":"4/13/2011",
+		"address":"1405 North Neil Street, Champaign",
+		"value":"1",
+		"latitude":"40.130256",
+		"longitude":"-88.243974"
 	},
 	{
-		"date":"December 10, 2009",
-		"address":"1405 West Kirby Avenue, Champaign"
+		"date":"4/15/2010",
+		"address":"1405 Stout Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1103",
+		"longitude":"-88.191675"
 	},
 	{
-		"date":"December 24, 2011",
-		"address":"1406 Weathervane Drive, Champaign"
+		"date":"12/10/2009",
+		"address":"1405 West Kirby Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.097861",
+		"longitude":"-88.269707"
 	},
 	{
-		"date":"August 5, 2011",
-		"address":"1415 West Kirby Avenue, Champaign"
+		"date":"5/22/2008",
+		"address":"1406 Lincolnwood Drive, Urbana",
+		"value":"1",
+		"latitude":"40.101084",
+		"longitude":"-88.185312"
 	},
 	{
-		"date":"February 18, 2011",
-		"address":"1418 Briarwood Drive, Champaign"
+		"date":"12/24/2011",
+		"address":"1406 Weathervane Drive, Champaign",
+		"value":"1",
+		"latitude":"40.092367",
+		"longitude":"-88.270522"
 	},
 	{
-		"date":"December 18, 2010",
-		"address":"1503 Kiler Drive, Champaign"
+		"date":"4/13/2012",
+		"address":"1407 Wiley Drive, Urbana",
+		"value":"2",
+		"latitude":"40.099925",
+		"longitude":"-88.198227"
 	},
 	{
-		"date":"February 10, 2013",
-		"address":"1503 Kiler Drive, Champaign"
+		"date":"6/13/2009",
+		"address":"1413 Ivanhoe Way, Urbana",
+		"value":"1",
+		"latitude":"40.1026925",
+		"longitude":"-88.1894938"
 	},
 	{
-		"date":"July 26, 2011",
-		"address":"1505 Hedge Road, Champaign"
+		"date":"8/5/2011",
+		"address":"1415 West Kirby Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.097913",
+		"longitude":"-88.27014"
 	},
 	{
-		"date":"April 20, 2010",
-		"address":"1507 Kiler Drive, Champaign"
+		"date":"2/18/2011",
+		"address":"1418 Briarwood Drive, Champaign",
+		"value":"1",
+		"latitude":"40.099378",
+		"longitude":"-88.286695"
 	},
 	{
-		"date":"October 16, 2013",
-		"address":"1508 Devonshire Drive, Champaign"
+		"date":"12/18/2010",
+		"address":"1503 Kiler Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1320533",
+		"longitude":"-88.2492873"
 	},
 	{
-		"date":"July 16, 2011",
-		"address":"1509 West Kirby Avenue, Champaign"
+		"date":"2/10/2013",
+		"address":"1503 Kiler Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1320533",
+		"longitude":"-88.2492873"
 	},
 	{
-		"date":"September 5, 2013",
-		"address":"1510 Grandview Drive, Champaign"
+		"date":"7/19/2012",
+		"address":"1505 East Main Street, Urbana",
+		"value":"2",
+		"latitude":"40.110923",
+		"longitude":"-88.190116"
 	},
 	{
-		"date":"June 30, 2009",
-		"address":"1512 North Mattis Avenue, Champaign"
+		"date":"8/2/2012",
+		"address":"1505 East Main Street, Urbana",
+		"value":"1",
+		"latitude":"40.110923",
+		"longitude":"-88.190116"
 	},
 	{
-		"date":"March 16, 2011",
-		"address":"1512 North Mattis Avenue, Champaign"
+		"date":"7/26/2011",
+		"address":"1505 Hedge Road, Champaign",
+		"value":"1",
+		"latitude":"40.131185",
+		"longitude":"-88.2696409"
 	},
 	{
-		"date":"January 14, 2011",
-		"address":"1513 Hedge Road, Champaign"
+		"date":"12/8/2008",
+		"address":"1505 South Curtiss Drive, Urbana",
+		"value":"1",
+		"latitude":"40.100353",
+		"longitude":"-88.184877"
 	},
 	{
-		"date":"February 25, 2011",
-		"address":"1513 Hedge Road, Champaign"
+		"date":"4/20/2010",
+		"address":"1507 Kiler Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1315267",
+		"longitude":"-88.2494545"
 	},
 	{
-		"date":"April 20, 2009",
-		"address":"1519 Holly Hill Drive, Champaign"
+		"date":"10/16/2013",
+		"address":"1508 Devonshire Drive, Champaign",
+		"value":"1",
+		"latitude":"40.089948",
+		"longitude":"-88.269991"
 	},
 	{
-		"date":"September 8, 2013",
-		"address":"1519 West Church Street, Champaign"
+		"date":"7/16/2011",
+		"address":"1509 West Kirby Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.0982068",
+		"longitude":"-88.2708697"
 	},
 	{
-		"date":"September 8, 2013",
-		"address":"1521 West Church Street, Champaign"
+		"date":"9/5/2013",
+		"address":"1510 Grandview Drive, Champaign",
+		"value":"1",
+		"latitude":"40.098815",
+		"longitude":"-88.248384"
 	},
 	{
-		"date":"September 8, 2013",
-		"address":"1521 West Church Street, Champaign"
+		"date":"3/16/2011",
+		"address":"1512 North Mattis Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.132035",
+		"longitude":"-88.276693"
 	},
 	{
-		"date":"September 8, 2013",
-		"address":"1521 West Church Street, Champaign"
+		"date":"6/30/2009",
+		"address":"1512 North Mattis Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.132035",
+		"longitude":"-88.276693"
 	},
 	{
-		"date":"September 8, 2013",
-		"address":"1521 West Church Street, Champaign"
+		"date":"1/14/2011",
+		"address":"1513 Hedge Road, Champaign",
+		"value":"1",
+		"latitude":"40.131493",
+		"longitude":"-88.270498"
 	},
 	{
-		"date":"September 8, 2013",
-		"address":"1521 West Church Street, Champaign"
+		"date":"2/25/2011",
+		"address":"1513 Hedge Road, Champaign",
+		"value":"1",
+		"latitude":"40.131493",
+		"longitude":"-88.270498"
 	},
 	{
-		"date":"September 8, 2013",
-		"address":"1521 West Church Street, Champaign"
+		"date":"6/16/2009",
+		"address":"1517 East Florida Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.0983202",
+		"longitude":"-88.1901046"
 	},
 	{
-		"date":"September 8, 2013",
-		"address":"1521 West Church Street, Champaign"
+		"date":"4/20/2009",
+		"address":"1519 Holly Hill Drive, Champaign",
+		"value":"1",
+		"latitude":"40.131392",
+		"longitude":"-88.272521"
 	},
 	{
-		"date":"March 3, 2012",
-		"address":"1527 Lincolnshire Drive, Champaign"
+		"date":"9/8/2013",
+		"address":"1519 West Church Street, Champaign",
+		"value":"1",
+		"latitude":"40.118087",
+		"longitude":"-88.272112"
 	},
 	{
-		"date":"September 19, 2013",
-		"address":"1530 Hedge Road, Champaign"
+		"date":"9/8/2013",
+		"address":"1521 West Church Street, Champaign",
+		"value":"7",
+		"latitude":"40.118123",
+		"longitude":"-88.272291"
 	},
 	{
-		"date":"November 30, 2012",
-		"address":"1601 Kiler Drive, Champaign"
+		"date":"9/8/2013",
+		"address":"1521 West Church Street, Urbana",
+		"value":"1",
+		"latitude":"40.1182548",
+		"longitude":"-88.2205101"
 	},
 	{
-		"date":"November 12, 2010",
-		"address":"1604 Sheffield Road, Champaign"
+		"date":"3/3/2012",
+		"address":"1527 Lincolnshire Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0968108",
+		"longitude":"-88.2717133"
 	},
 	{
-		"date":"December 23, 2012",
-		"address":"1608 Hedge Road, Champaign"
+		"date":"9/19/2013",
+		"address":"1530 Hedge Road, Champaign",
+		"value":"1",
+		"latitude":"40.132379",
+		"longitude":"-88.271613"
 	},
 	{
-		"date":"April 6, 2009",
-		"address":"1609 West Clark Street, Champaign"
+		"date":"4/26/2008",
+		"address":"1531 Hunter Street, Urbana",
+		"value":"1",
+		"latitude":"40.1037513",
+		"longitude":"-88.1898266"
 	},
 	{
-		"date":"May 30, 2012",
-		"address":"1609 West Springfield Avenue, Champaign"
+		"date":"11/30/2012",
+		"address":"1601 Kiler Drive, Champaign",
+		"value":"1",
+		"latitude":"40.132225",
+		"longitude":"-88.249654"
 	},
 	{
-		"date":"April 30, 2010",
-		"address":"1611 Sangamon Drive, Champaign"
+		"date":"1/28/2009",
+		"address":"1601 North Lincoln Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1287503",
+		"longitude":"-88.2221716"
 	},
 	{
-		"date":"October 2, 2013",
-		"address":"1618 West University Avenue, Champaign"
+		"date":"1/31/2011",
+		"address":"1601 North Lincoln Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1287503",
+		"longitude":"-88.2221716"
 	},
 	{
-		"date":"April 15, 2010",
-		"address":"1620 West Union Street, Champaign"
+		"date":"9/30/2009",
+		"address":"1602 Butzow Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1180779",
+		"longitude":"-88.187336"
 	},
 	{
-		"date":"April 2, 2011",
-		"address":"1638 Valley Road, Champaign"
+		"date":"5/6/2008",
+		"address":"1602 East University Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1161869",
+		"longitude":"-88.187537"
 	},
 	{
-		"date":"May 27, 2011",
-		"address":"1700 West Washington Street, Champaign"
+		"date":"1/17/2012",
+		"address":"1603 Hunter Street, Urbana",
+		"value":"1",
+		"latitude":"40.1036694",
+		"longitude":"-88.1882041"
 	},
 	{
-		"date":"October 16, 2009",
-		"address":"1703 West William Street, Champaign"
+		"date":"11/12/2010",
+		"address":"1604 Sheffield Road, Champaign",
+		"value":"1",
+		"latitude":"40.129769",
+		"longitude":"-88.27425"
 	},
 	{
-		"date":"February 18, 2009",
-		"address":"1703 West White Street, Champaign"
+		"date":"4/25/2011",
+		"address":"1605 Golfview Drive, Urbana",
+		"value":"1",
+		"latitude":"40.127912",
+		"longitude":"-88.202654"
 	},
 	{
-		"date":"May 20, 2013",
-		"address":"1708 West Kirby Avenue, Champaign"
+		"date":"4/9/2014",
+		"address":"1606 Glen Burnie Drive, Champaign",
+		"value":"1",
+		"latitude":"40.129052",
+		"longitude":"-88.274472"
 	},
 	{
-		"date":"May 21, 2013",
-		"address":"1708 West Kirby Avenue, Champaign"
+		"date":"4/3/2013",
+		"address":"1607 East Florida Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.0982704",
+		"longitude":"-88.1895329"
 	},
 	{
-		"date":"December 14, 2013",
-		"address":"1710 West White Street, Champaign"
+		"date":"12/23/2012",
+		"address":"1608 Hedge Road, Champaign",
+		"value":"1",
+		"latitude":"40.133126",
+		"longitude":"-88.273692"
 	},
 	{
-		"date":"December 23, 2013",
-		"address":"1714 Park Haven Drive, Champaign"
+		"date":"4/6/2009",
+		"address":"1609 West Clark Street, Champaign",
+		"value":"1",
+		"latitude":"40.115227",
+		"longitude":"-88.273272"
 	},
 	{
-		"date":"July 6, 2009",
-		"address":"1721 Henry Street, Champaign"
+		"date":"5/30/2012",
+		"address":"1609 West Springfield Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.112525",
+		"longitude":"-88.273756"
 	},
 	{
-		"date":"June 24, 2012",
-		"address":"1815 West John Street, Champaign"
+		"date":"8/8/2010",
+		"address":"1610 Ivanhoe Way, Urbana",
+		"value":"1",
+		"latitude":"40.101996",
+		"longitude":"-88.187987"
 	},
 	{
-		"date":"September 1, 2012",
-		"address":"1822 Parkdale Drive, Champaign"
+		"date":"4/30/2010",
+		"address":"1611 Sangamon Drive, Champaign",
+		"value":"1",
+		"latitude":"40.10211",
+		"longitude":"-88.273877"
 	},
 	{
-		"date":"January 20, 2010",
-		"address":"1823 Valley Road, Champaign"
+		"date":"12/15/2010",
+		"address":"1615 East Florida Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.098269",
+		"longitude":"-88.189482"
 	},
 	{
-		"date":"November 29, 2013",
-		"address":"19 Apricot Drive, Champaign"
+		"date":"10/2/2013",
+		"address":"1618 West University Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.116727",
+		"longitude":"-88.274147"
 	},
 	{
-		"date":"July 14, 2013",
-		"address":"1904 Broadmoor Drive, Champaign"
+		"date":"4/15/2010",
+		"address":"1620 West Union Street, Champaign",
+		"value":"1",
+		"latitude":"40.113879",
+		"longitude":"-88.2748359"
 	},
 	{
-		"date":"April 6, 2013",
-		"address":"1906 East Amber Lane, Urbana"
+		"date":"4/2/2011",
+		"address":"1638 Valley Road, Champaign",
+		"value":"1",
+		"latitude":"40.0975779",
+		"longitude":"-88.249345"
 	},
 	{
-		"date":"March 29, 2013",
-		"address":"1912 Mcdonald Drive, Champaign"
+		"date":"5/27/2011",
+		"address":"1700 East Washington Street, Urbana",
+		"value":"1",
+		"latitude":"40.1056825",
+		"longitude":"-88.1866111"
 	},
 	{
-		"date":"January 23, 2013",
-		"address":"1917 Melrose Drive, Champaign"
+		"date":"5/27/2011",
+		"address":"1700 West Washington Street, Champaign",
+		"value":"1",
+		"latitude":"40.120539",
+		"longitude":"-88.276534"
 	},
 	{
-		"date":"May 8, 2010",
-		"address":"1920 Robert Drive, Champaign"
+		"date":"2/18/2009",
+		"address":"1703 West White Street, Champaign",
+		"value":"1",
+		"latitude":"40.114318",
+		"longitude":"-88.275124"
 	},
 	{
-		"date":"April 6, 2013",
-		"address":"Market Place Shopping Center, 2000 North Neil Street, Champaign"
+		"date":"10/16/2009",
+		"address":"1703 West William Street, Champaign",
+		"value":"1",
+		"latitude":"40.106281",
+		"longitude":"-88.275898"
 	},
 	{
-		"date":"December 20, 2011",
-		"address":"2002 Moreland Boulevard, Champaign"
+		"date":"1/29/2009",
+		"address":"1708 South Vine Street, Urbana",
+		"value":"1",
+		"latitude":"40.0971122",
+		"longitude":"-88.2046744"
 	},
 	{
-		"date":"September 19, 2012",
-		"address":"2003 Moreland Boulevard, Champaign"
+		"date":"5/20/2013",
+		"address":"1708 West Kirby Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.098533",
+		"longitude":"-88.275483"
 	},
 	{
-		"date":"March 19, 2009",
-		"address":"2003 West John Street, Champaign"
+		"date":"5/21/2013",
+		"address":"1708 West Kirby Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.098533",
+		"longitude":"-88.275483"
 	},
 	{
-		"date":"July 23, 2009",
-		"address":"2004 Sangamon Drive, Champaign"
+		"date":"12/14/2013",
+		"address":"1710 West White Street, Champaign",
+		"value":"1",
+		"latitude":"40.114904",
+		"longitude":"-88.275912"
 	},
 	{
-		"date":"June 7, 2013",
-		"address":"2007 Broadmoor Drive, Champaign"
+		"date":"7/12/2014",
+		"address":"1712 South Prospect Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.095564",
+		"longitude":"-88.257245"
 	},
 	{
-		"date":"October 30, 2011",
-		"address":"2007 Moreland Boulevard, Champaign"
+		"date":"7/3/2012",
+		"address":"1713 Melrose Valley Court, Urbana",
+		"value":"1",
+		"latitude":"40.1277037",
+		"longitude":"-88.220021"
 	},
 	{
-		"date":"October 14, 2009",
-		"address":"University of Illinois at Urbana-Champaign, 201 East Gregory Drive, Champaign"
+		"date":"12/23/2013",
+		"address":"1714 Park Haven Drive, Champaign",
+		"value":"1",
+		"latitude":"40.095296",
+		"longitude":"-88.251182"
 	},
 	{
-		"date":"August 31, 2012",
-		"address":"2011 Moreland Boulevard, Champaign"
+		"date":"7/6/2009",
+		"address":"1721 Henry Street, Champaign",
+		"value":"1",
+		"latitude":"40.107118",
+		"longitude":"-88.274685"
 	},
 	{
-		"date":"April 1, 2012",
-		"address":"2012 West Springfield Avenue, Champaign"
+		"date":"5/18/2008",
+		"address":"1723 East Florida Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.0982678",
+		"longitude":"-88.1884994"
 	},
 	{
-		"date":"September 2, 2012",
-		"address":"202 Bellefontaine Street, Champaign"
+		"date":"4/13/2014",
+		"address":"1732 East Florida Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.098601",
+		"longitude":"-88.185058"
 	},
 	{
-		"date":"March 2, 2012",
-		"address":"202 East John Street, Champaign"
+		"date":"4/12/2014",
+		"address":"1806 Mayfair Road, Champaign",
+		"value":"1",
+		"latitude":"40.092747",
+		"longitude":"-88.2692469"
 	},
 	{
-		"date":"January 22, 2013",
-		"address":"205 South Victor Street, Champaign"
+		"date":"6/24/2012",
+		"address":"1815 West John Street, Champaign",
+		"value":"1",
+		"latitude":"40.1091523",
+		"longitude":"-88.277644"
 	},
 	{
-		"date":"January 22, 2013",
-		"address":"205 South Victor Street, Champaign"
+		"date":"9/1/2012",
+		"address":"1822 Parkdale Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0977249",
+		"longitude":"-88.27896"
 	},
 	{
-		"date":"April 15, 2012",
-		"address":"206 North New Street, Champaign"
+		"date":"1/20/2010",
+		"address":"1823 Valley Road, Champaign",
+		"value":"1",
+		"latitude":"40.0949571",
+		"longitude":"-88.2493441"
 	},
 	{
-		"date":"April 12, 2011",
-		"address":"207 East Washington Street, Champaign"
+		"date":"11/29/2013",
+		"address":"19 Apricot Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1312596",
+		"longitude":"-88.236508"
 	},
 	{
-		"date":"October 19, 2013",
-		"address":"208 West William Street, Champaign"
+		"date":"4/4/2008",
+		"address":"1901 North Lincoln Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1299254",
+		"longitude":"-88.219556"
 	},
 	{
-		"date":"January 7, 2010",
-		"address":"208 West Columbia Avenue, Champaign"
+		"date":"4/15/2014",
+		"address":"1901 North Market Street, Champaign",
+		"value":"1",
+		"latitude":"40.1399537",
+		"longitude":"-88.2398554"
 	},
 	{
-		"date":"September 10, 2012",
-		"address":"209 East Garwood Street, Champaign"
+		"date":"7/14/2013",
+		"address":"1904 Broadmoor Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0945139",
+		"longitude":"-88.278997"
 	},
 	{
-		"date":"March 15, 2012",
-		"address":"209 East Armory Avenue, Champaign"
+		"date":"8/21/2014",
+		"address":"1905 North Cunningham Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1306008",
+		"longitude":"-88.1986677"
 	},
 	{
-		"date":"February 21, 2010",
-		"address":"2101 Vale Street, Champaign"
+		"date":"4/6/2013",
+		"address":"1906 East Amber Lane, Urbana",
+		"value":"2",
+		"latitude":"40.0877734",
+		"longitude":"-88.182459"
 	},
 	{
-		"date":"January 15, 2012",
-		"address":"2104 Clover Court West, Champaign"
+		"date":"3/29/2013",
+		"address":"1912 Mcdonald Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0914689",
+		"longitude":"-88.260715"
 	},
 	{
-		"date":"August 12, 2010",
-		"address":"2105 Sunview Drive, Champaign"
+		"date":"1/23/2013",
+		"address":"1917 Melrose Drive, Champaign",
+		"value":"1",
+		"latitude":"40.085752",
+		"longitude":"-88.2528306"
 	},
 	{
-		"date":"July 11, 2010",
-		"address":"2105 West White Street, Champaign"
+		"date":"5/8/2010",
+		"address":"1920 Robert Drive, Champaign",
+		"value":"1",
+		"latitude":"40.090751",
+		"longitude":"-88.266041"
 	},
 	{
-		"date":"September 28, 2013",
-		"address":"2106 Sumac Drive, Champaign"
+		"date":"12/20/2011",
+		"address":"2002 Moreland Boulevard, Champaign",
+		"value":"1",
+		"latitude":"40.140415",
+		"longitude":"-88.249597"
 	},
 	{
-		"date":"October 29, 2013",
-		"address":"2107 Charwick Drive, Champaign"
+		"date":"9/19/2012",
+		"address":"2003 Moreland Boulevard, Champaign",
+		"value":"1",
+		"latitude":"40.1403155",
+		"longitude":"-88.2508269"
 	},
 	{
-		"date":"September 1, 2013",
-		"address":"211 West Eureka Street, Champaign"
+		"date":"3/19/2009",
+		"address":"2003 West John Street, Champaign",
+		"value":"1",
+		"latitude":"40.108968",
+		"longitude":"-88.280863"
 	},
 	{
-		"date":"November 3, 2009",
-		"address":"2110 North Prospect Avenue, Champaign"
+		"date":"5/25/2012",
+		"address":"2004 East Amber Lane, Urbana",
+		"value":"1",
+		"latitude":"40.0877363",
+		"longitude":"-88.1820913"
 	},
 	{
-		"date":"February 5, 2010",
-		"address":"212 Maple Street, Champaign"
+		"date":"7/23/2009",
+		"address":"2004 Sangamon Drive, Champaign",
+		"value":"1",
+		"latitude":"40.102648",
+		"longitude":"-88.280162"
 	},
 	{
-		"date":"August 7, 2013",
-		"address":"2205 Harrington Court, Champaign"
+		"date":"4/20/2011",
+		"address":"2004 Vawter Street, Urbana",
+		"value":"1",
+		"latitude":"40.09335",
+		"longitude":"-88.191512"
 	},
 	{
-		"date":"July 6, 2013",
-		"address":"2208 Branch Road, Champaign"
+		"date":"12/24/2013",
+		"address":"2005 East Vermont Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.100761",
+		"longitude":"-88.182847"
 	},
 	{
-		"date":"February 1, 2010",
-		"address":"2310 Country Squire Drive, Urbana"
+		"date":"4/4/2014",
+		"address":"2006 Parkdale Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0977419",
+		"longitude":"-88.280621"
 	},
 	{
-		"date":"May 7, 2013",
-		"address":"2313 Blackthorn Drive, Champaign"
+		"date":"6/7/2013",
+		"address":"2007 Broadmoor Drive, Champaign",
+		"value":"1",
+		"latitude":"40.094087",
+		"longitude":"-88.280758"
 	},
 	{
-		"date":"December 8, 2009",
-		"address":"2322 Rebecca Drive, Champaign"
+		"date":"10/30/2011",
+		"address":"2007 Moreland Boulevard, Champaign",
+		"value":"1",
+		"latitude":"40.140336",
+		"longitude":"-88.2508275"
 	},
 	{
-		"date":"January 13, 2013",
-		"address":"2401 High View Court, Champaign"
+		"date":"3/3/2008",
+		"address":"2009 Philo Road, Urbana",
+		"value":"1",
+		"latitude":"40.092449",
+		"longitude":"-88.1906738"
 	},
 	{
-		"date":"September 28, 2011",
-		"address":"2401 North Neil Street, Champaign"
+		"date":"3/16/2012",
+		"address":"201 North Broadway Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.113525",
+		"longitude":"-88.207785"
 	},
 	{
-		"date":"May 9, 2009",
-		"address":"2403 West Kirby Avenue, Champaign"
+		"date":"3/10/2014",
+		"address":"201 South Busey Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.111205",
+		"longitude":"-88.218039"
 	},
 	{
-		"date":"March 28, 2012",
-		"address":"2403 West Springfield Avenue, Champaign"
+		"date":"12/19/2008",
+		"address":"201 South Dodson Drive, Urbana",
+		"value":"1",
+		"latitude":"40.110831",
+		"longitude":"-88.176391"
 	},
 	{
-		"date":"October 3, 2013",
-		"address":"2417 North Neil Street, Champaign"
+		"date":"8/31/2012",
+		"address":"2011 Moreland Boulevard, Champaign",
+		"value":"1",
+		"latitude":"40.1403565",
+		"longitude":"-88.2508281"
 	},
 	{
-		"date":"September 19, 2012",
-		"address":"2502 Myers Court, Champaign"
+		"date":"4/12/2014",
+		"address":"2012 Vawter Street, Urbana",
+		"value":"1",
+		"latitude":"40.0922539",
+		"longitude":"-88.191494"
 	},
 	{
-		"date":"October 6, 2011",
-		"address":"2502 West Springfield Avenue, Champaign"
+		"date":"4/1/2012",
+		"address":"2012 West Springfield Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1128894",
+		"longitude":"-88.2808438"
 	},
 	{
-		"date":"November 27, 2013",
-		"address":"2509 Campbell Drive, Champaign"
+		"date":"11/23/2009",
+		"address":"2014 East Michigan Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.101974",
+		"longitude":"-88.182363"
 	},
 	{
-		"date":"December 16, 2010",
-		"address":"2517 Clayton Boulevard, Champaign"
+		"date":"4/27/2014",
+		"address":"2017 Cynthia Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1378645",
+		"longitude":"-88.2749249"
 	},
 	{
-		"date":"September 14, 2013",
-		"address":"2560 West Springfield Avenue, Champaign"
+		"date":"9/2/2008",
+		"address":"2017 Philo Road, Urbana",
+		"value":"1",
+		"latitude":"40.091248",
+		"longitude":"-88.191129"
 	},
 	{
-		"date":"July 17, 2012",
-		"address":"2570 West Springfield Avenue, Champaign"
+		"date":"9/2/2012",
+		"address":"202 Bellefontaine Street, Champaign",
+		"value":"1",
+		"latitude":"40.129759",
+		"longitude":"-88.236635"
 	},
 	{
-		"date":"August 7, 2010",
-		"address":"2605 Wedgewood Drive, Champaign"
+		"date":"8/17/2013",
+		"address":"202 East Green Street, Urbana",
+		"value":"1",
+		"latitude":"40.11078",
+		"longitude":"-88.2060517"
 	},
 	{
-		"date":"November 17, 2010",
-		"address":"2610 Southmoor Drive, Champaign"
+		"date":"3/2/2012",
+		"address":"202 East John Street, Champaign",
+		"value":"1",
+		"latitude":"40.109361",
+		"longitude":"-88.236679"
 	},
 	{
-		"date":"October 20, 2010",
-		"address":"2709 Judith Drive, Champaign"
+		"date":"1/22/2013",
+		"address":"205 South Victor Street, Champaign",
+		"value":"2",
+		"latitude":"40.115475",
+		"longitude":"-88.2748875"
 	},
 	{
-		"date":"September 23, 2009",
-		"address":"2906 Crossing Court, Champaign"
+		"date":"4/29/2014",
+		"address":"206 Hartle Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.111493",
+		"longitude":"-88.191853"
 	},
 	{
-		"date":"August 26, 2012",
-		"address":"Country Fair Shopping Center, 301 South Mattis Avenue, Champaign"
+		"date":"4/15/2012",
+		"address":"206 North New Street, Champaign",
+		"value":"1",
+		"latitude":"40.1177",
+		"longitude":"-88.254074"
 	},
 	{
-		"date":"February 20, 2010",
-		"address":"302 South 2nd Street, Champaign"
+		"date":"1/8/2013",
+		"address":"206 West Washington Street, Urbana",
+		"value":"1",
+		"latitude":"40.105914",
+		"longitude":"-88.20922"
 	},
 	{
-		"date":"July 5, 2009",
-		"address":"303 Holts Drive, Champaign"
+		"date":"1/20/2014",
+		"address":"207 East John Street, Champaign",
+		"value":"1",
+		"latitude":"40.108744",
+		"longitude":"-88.23604"
 	},
 	{
-		"date":"June 1, 2009",
-		"address":"304 East Hill Street, Champaign"
+		"date":"4/12/2011",
+		"address":"207 East Washington Street, Champaign",
+		"value":"1",
+		"latitude":"40.119852",
+		"longitude":"-88.236262"
 	},
 	{
-		"date":"August 25, 2012",
-		"address":"306 East Green Street, Champaign"
+		"date":"3/15/2011",
+		"address":"207 South Cottage Grove Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.111382",
+		"longitude":"-88.196089"
 	},
 	{
-		"date":"May 7, 2009",
-		"address":"308 South 1st Street, Champaign"
+		"date":"1/7/2010",
+		"address":"208 West Columbia Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.121465",
+		"longitude":"-88.246186"
 	},
 	{
-		"date":"September 14, 2010",
-		"address":"308 South 1st Street, Champaign"
+		"date":"10/19/2013",
+		"address":"208 West William Street, Champaign",
+		"value":"1",
+		"latitude":"40.107082",
+		"longitude":"-88.246026"
 	},
 	{
-		"date":"October 11, 2013",
-		"address":"309 South Locust Street, Champaign"
+		"date":"3/15/2012",
+		"address":"209 East Armory Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.104994",
+		"longitude":"-88.236253"
 	},
 	{
-		"date":"March 25, 2012",
-		"address":"309 East Daniel Street, Champaign"
+		"date":"9/10/2012",
+		"address":"209 East Garwood Street, Champaign",
+		"value":"1",
+		"latitude":"40.128203",
+		"longitude":"-88.2364319"
 	},
 	{
-		"date":"September 24, 2012",
-		"address":"310 East Chalmers Street, Champaign"
+		"date":"6/15/2014",
+		"address":"209 West Beardsley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.126153",
+		"longitude":"-88.246401"
 	},
 	{
-		"date":"April 11, 2011",
-		"address":"310 Kenwood Road, Champaign"
+		"date":"2/21/2010",
+		"address":"2101 Vale Street, Champaign",
+		"value":"1",
+		"latitude":"40.089658",
+		"longitude":"-88.325745"
 	},
 	{
-		"date":"April 13, 2011",
-		"address":"310 Kenwood Road, Champaign"
+		"date":"1/15/2012",
+		"address":"2104 Clover Court West, Champaign",
+		"value":"1",
+		"latitude":"40.086454",
+		"longitude":"-88.279988"
 	},
 	{
-		"date":"March 27, 2012",
-		"address":"3104 Sylvan Drive, Champaign"
+		"date":"11/5/2010",
+		"address":"2105 East Pennsylvania Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.100848",
+		"longitude":"-88.1804609"
 	},
 	{
-		"date":"August 9, 2009",
-		"address":"311 South Prairie Street, Champaign"
+		"date":"8/12/2010",
+		"address":"2105 Sunview Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0895923",
+		"longitude":"-88.2760103"
 	},
 	{
-		"date":"July 21, 2011",
-		"address":"313 North Fair Street, Champaign"
+		"date":"7/11/2010",
+		"address":"2105 West White Street, Champaign",
+		"value":"1",
+		"latitude":"40.1143837",
+		"longitude":"-88.2823675"
 	},
 	{
-		"date":"February 8, 2011",
-		"address":"313 North Mattis Avenue, Champaign"
+		"date":"9/28/2013",
+		"address":"2106 Sumac Drive, Champaign",
+		"value":"1",
+		"latitude":"40.085731",
+		"longitude":"-88.2802339"
 	},
 	{
-		"date":"August 5, 2009",
-		"address":"3204 Brentwood Drive, Champaign"
+		"date":"10/29/2013",
+		"address":"2107 Charwick Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0892849",
+		"longitude":"-88.31968"
 	},
 	{
-		"date":"September 18, 2010",
-		"address":"3210 Ridgewood Court, Champaign"
+		"date":"9/1/2013",
+		"address":"211 West Eureka Street, Champaign",
+		"value":"1",
+		"latitude":"40.125215",
+		"longitude":"-88.2466309"
 	},
 	{
-		"date":"October 19, 2010",
-		"address":"3215 Kimberly Drive, Champaign"
+		"date":"11/3/2009",
+		"address":"2110 North Prospect Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1421019",
+		"longitude":"-88.2571648"
 	},
 	{
-		"date":"October 21, 2011",
-		"address":"33 East Bradley Avenue, Champaign"
+		"date":"6/11/2013",
+		"address":"212 Hartle Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.111077",
+		"longitude":"-88.191975"
 	},
 	{
-		"date":"October 21, 2011",
-		"address":"33 East Bradley Avenue, Champaign"
+		"date":"2/5/2010",
+		"address":"212 Maple Street, Champaign",
+		"value":"1",
+		"latitude":"40.122661",
+		"longitude":"-88.2454179"
 	},
 	{
-		"date":"January 12, 2012",
-		"address":"3429 Stoneway Court, Champaign"
+		"date":"3/17/2012",
+		"address":"213 Central Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.113549",
+		"longitude":"-88.2114601"
 	},
 	{
-		"date":"July 13, 2011",
-		"address":"3746 Summer Sage Court, Champaign"
+		"date":"6/25/2014",
+		"address":"2130 Peach Street, Champaign",
+		"value":"1",
+		"latitude":"40.0874336",
+		"longitude":"-88.2555532"
 	},
 	{
-		"date":"November 16, 2013",
-		"address":"40 East Springfield Avenue, Champaign"
+		"date":"9/6/2013",
+		"address":"2201 Country Squire Drive, Urbana",
+		"value":"1",
+		"latitude":"40.102311",
+		"longitude":"-88.179526"
 	},
 	{
-		"date":"August 17, 2013",
-		"address":"401 East Daniel Street, Champaign"
+		"date":"5/10/2011",
+		"address":"2204 Country Squire Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1028329",
+		"longitude":"-88.17945"
 	},
 	{
-		"date":"March 24, 2009",
-		"address":"401 East John Street, Champaign"
+		"date":"8/7/2013",
+		"address":"2205 Harrington Court, Champaign",
+		"value":"1",
+		"latitude":"40.086281",
+		"longitude":"-88.270228"
 	},
 	{
-		"date":"July 3, 2009",
-		"address":"402 South Elm Street, Champaign"
+		"date":"12/14/2011",
+		"address":"2207 Lantern Hill Drive, Urbana",
+		"value":"1",
+		"latitude":"40.104202",
+		"longitude":"-88.178871"
 	},
 	{
-		"date":"September 25, 2009",
-		"address":"405 North State Street, Champaign"
+		"date":"1/31/2014",
+		"address":"2207 Philo Road, Urbana",
+		"value":"2",
+		"latitude":"40.089175",
+		"longitude":"-88.1906304"
 	},
 	{
-		"date":"September 7, 2009",
-		"address":"405 West Beardsley Avenue, Champaign"
+		"date":"7/6/2013",
+		"address":"2208 Branch Road, Champaign",
+		"value":"1",
+		"latitude":"40.08721",
+		"longitude":"-88.282555"
 	},
 	{
-		"date":"September 8, 2009",
-		"address":"405 West Beardsley Avenue, Champaign"
+		"date":"6/13/2014",
+		"address":"2301 North Prospect Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1438051",
+		"longitude":"-88.258373"
 	},
 	{
-		"date":"October 20, 2012",
-		"address":"405 West White Street, Champaign"
+		"date":"2/1/2010",
+		"address":"2310 Country Squire Drive, Urbana",
+		"value":"2",
+		"latitude":"40.1034549",
+		"longitude":"-88.177148"
 	},
 	{
-		"date":"August 18, 2011",
-		"address":"406 North Carson Avenue, Champaign"
+		"date":"5/7/2013",
+		"address":"2313 Blackthorn Drive, Champaign",
+		"value":"1",
+		"latitude":"40.088197",
+		"longitude":"-88.284301"
 	},
 	{
-		"date":"December 26, 2010",
-		"address":"406 East Stoughton Street, Champaign"
+		"date":"12/8/2009",
+		"address":"2322 Rebecca Drive, Champaign",
+		"value":"1",
+		"latitude":"40.084569",
+		"longitude":"-88.2850799"
 	},
 	{
-		"date":"April 15, 2012",
-		"address":"407 South Prairie Street, Champaign"
+		"date":"1/13/2013",
+		"address":"2401 High View Court, Champaign",
+		"value":"1",
+		"latitude":"40.126543",
+		"longitude":"-88.287515"
 	},
 	{
-		"date":"April 12, 2013",
-		"address":"407 South State Street, Champaign"
+		"date":"9/28/2011",
+		"address":"2401 North Neil Street, Champaign",
+		"value":"1",
+		"latitude":"40.1419772",
+		"longitude":"-88.2484014"
 	},
 	{
-		"date":"February 28, 2009",
-		"address":"University of Illinois at Urbana-Champaign, 409 East Chalmers Street, Champaign"
+		"date":"5/9/2009",
+		"address":"2403 West Kirby Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.097835",
+		"longitude":"-88.286864"
 	},
 	{
-		"date":"April 23, 2013",
-		"address":"University of Illinois at Urbana-Champaign, 409 East Chalmers Street, Champaign"
+		"date":"3/28/2012",
+		"address":"2403 West Springfield Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1126776",
+		"longitude":"-88.2866993"
 	},
 	{
-		"date":"November 29, 2009",
-		"address":"410 East Church Street, Champaign"
+		"date":"5/22/2008",
+		"address":"2404 North Shore Drive, Urbana",
+		"value":"1",
+		"latitude":"40.137657",
+		"longitude":"-88.221655"
 	},
 	{
-		"date":"October 30, 2012",
-		"address":"411 Louisiana Avenue, Champaign"
+		"date":"6/18/2008",
+		"address":"2406 Prairie Green Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1052335",
+		"longitude":"-88.17611"
 	},
 	{
-		"date":"August 4, 2010",
-		"address":"412 Luria Lane, Champaign"
+		"date":"12/26/2011",
+		"address":"2408 North Cunningham Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.137818",
+		"longitude":"-88.191588"
 	},
 	{
-		"date":"January 19, 2013",
-		"address":"412 East Columbia Avenue, Champaign"
+		"date":"3/29/2012",
+		"address":"2409 Prairie Green Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1052055",
+		"longitude":"-88.1760743"
 	},
 	{
-		"date":"October 1, 2009",
-		"address":"501 Mitchell Court, Champaign"
+		"date":"5/3/2014",
+		"address":"2412 Prairie Green Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1052341",
+		"longitude":"-88.1760035"
 	},
 	{
-		"date":"October 6, 2010",
-		"address":"501 North Neil Street, Champaign"
+		"date":"10/3/2013",
+		"address":"2417 North Neil Street, Champaign",
+		"value":"1",
+		"latitude":"40.1419841",
+		"longitude":"-88.2483985"
 	},
 	{
-		"date":"August 16, 2009",
-		"address":"503 East Stoughton Street, Champaign"
+		"date":"6/12/2014",
+		"address":"2419 North Neil Street, Champaign",
+		"value":"1",
+		"latitude":"40.141985",
+		"longitude":"-88.2483981"
 	},
 	{
-		"date":"December 15, 2010",
-		"address":"503 East Bradley Avenue, Champaign"
+		"date":"9/19/2012",
+		"address":"2502 Myers Court, Champaign",
+		"value":"1",
+		"latitude":"40.081976",
+		"longitude":"-88.276705"
 	},
 	{
-		"date":"June 20, 2012",
-		"address":"505 North Edwin Street, Champaign"
+		"date":"10/6/2011",
+		"address":"2502 West Springfield Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1143882",
+		"longitude":"-88.287431"
 	},
 	{
-		"date":"July 24, 2009",
-		"address":"University of Illinois at Urbana-Champaign, 505 East Armory Avenue, Champaign"
+		"date":"7/23/2008",
+		"address":"2504 Prairie Green Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1052237",
+		"longitude":"-88.1743702"
 	},
 	{
-		"date":"January 25, 2010",
-		"address":"505 South 4th Street, Champaign"
+		"date":"5/15/2008",
+		"address":"2507 Prairie Green Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1051952",
+		"longitude":"-88.1743351"
 	},
 	{
-		"date":"April 14, 2010",
-		"address":"505 South 4th Street, Champaign"
+		"date":"11/27/2013",
+		"address":"2509 Campbell Drive, Champaign",
+		"value":"1",
+		"latitude":"40.143578",
+		"longitude":"-88.270583"
 	},
 	{
-		"date":"April 2, 2010",
-		"address":"505 South Neil Street, Champaign"
+		"date":"6/20/2013",
+		"address":"2510 North Shore Drive, Urbana",
+		"value":"1",
+		"latitude":"40.139328",
+		"longitude":"-88.222207"
 	},
 	{
-		"date":"May 3, 2012",
-		"address":"507 West White Street, Champaign"
+		"date":"12/16/2010",
+		"address":"2517 Clayton Boulevard, Champaign",
+		"value":"1",
+		"latitude":"40.124541",
+		"longitude":"-88.286572"
 	},
 	{
-		"date":"November 23, 2009",
-		"address":"507 Mitchell Court, Champaign"
+		"date":"9/14/2013",
+		"address":"2560 West Springfield Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1129572",
+		"longitude":"-88.2886295"
 	},
 	{
-		"date":"August 4, 2013",
-		"address":"509 East Clark Street, Champaign"
+		"date":"7/17/2012",
+		"address":"2570 West Springfield Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1129576",
+		"longitude":"-88.288663"
 	},
 	{
-		"date":"March 27, 2012",
-		"address":"511 Alabama Avenue, Champaign"
+		"date":"8/7/2010",
+		"address":"2605 Wedgewood Drive, Champaign",
+		"value":"1",
+		"latitude":"40.0767499",
+		"longitude":"-88.288227"
 	},
 	{
-		"date":"July 3, 2010",
-		"address":"512 South Westlawn Avenue, Champaign"
+		"date":"11/17/2010",
+		"address":"2610 Southmoor Drive, Champaign",
+		"value":"1",
+		"latitude":"40.09181",
+		"longitude":"-88.290818"
 	},
 	{
-		"date":"August 11, 2012",
-		"address":"515 Bloomington Road, Champaign"
+		"date":"4/19/2011",
+		"address":"2614 South Wadsworth Lane, Urbana",
+		"value":"1",
+		"latitude":"40.086498",
+		"longitude":"-88.170683"
 	},
 	{
-		"date":"June 15, 2009",
-		"address":"53 East John Street, Champaign"
+		"date":"6/13/2014",
+		"address":"2702 Boulder Drive, Urbana",
+		"value":"1",
+		"latitude":"40.0831089",
+		"longitude":"-88.187788"
 	},
 	{
-		"date":"January 13, 2012",
-		"address":"57 Chalmers Street, Champaign"
+		"date":"10/20/2010",
+		"address":"2709 Judith Drive, Champaign",
+		"value":"1",
+		"latitude":"40.098964",
+		"longitude":"-88.291832"
 	},
 	{
-		"date":"July 11, 2009",
-		"address":"57 East John Street, Champaign"
+		"date":"5/20/2012",
+		"address":"2730 East Castlerock Drive, Urbana",
+		"value":"1",
+		"latitude":"40.0920289",
+		"longitude":"-88.171651"
 	},
 	{
-		"date":"May 11, 2012",
-		"address":"58 East Armory Avenue, Champaign"
+		"date":"9/23/2009",
+		"address":"2906 Crossing Court, Champaign",
+		"value":"1",
+		"latitude":"40.0846019",
+		"longitude":"-88.291825"
 	},
 	{
-		"date":"August 27, 2012",
-		"address":"601 Crescent Drive, Champaign"
+		"date":"6/18/2011",
+		"address":"3 Buena Vista Court, Urbana",
+		"value":"1",
+		"latitude":"40.111951",
+		"longitude":"-88.214859"
 	},
 	{
-		"date":"December 11, 2009",
-		"address":"601 Lauterbur Lane, Champaign"
+		"date":"3/19/2014",
+		"address":"302 East Armory Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.105685",
+		"longitude":"-88.23488"
 	},
 	{
-		"date":"February 2, 2009",
-		"address":"602 West Marketview Drive, Champaign"
+		"date":"2/1/2014",
+		"address":"302 East Park Street, Champaign",
+		"value":"1",
+		"latitude":"40.117632",
+		"longitude":"-88.235181"
 	},
 	{
-		"date":"May 2, 2013",
-		"address":"604 East Washington Street, Champaign"
+		"date":"2/20/2010",
+		"address":"302 South 2nd Street, Champaign",
+		"value":"1",
+		"latitude":"40.113929",
+		"longitude":"-88.236619"
 	},
 	{
-		"date":"October 22, 2013",
-		"address":"605 East White Street, Champaign"
+		"date":"7/5/2009",
+		"address":"303 Holts Drive, Champaign",
+		"value":"1",
+		"latitude":"40.122262",
+		"longitude":"-88.234286"
 	},
 	{
-		"date":"May 10, 2011",
-		"address":"606 North Prospect Avenue, Champaign"
+		"date":"7/16/2009",
+		"address":"303 South Busey Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.110002",
+		"longitude":"-88.218226"
 	},
 	{
-		"date":"January 3, 2012",
-		"address":"612 East Beardsley Avenue, Champaign"
+		"date":"6/1/2009",
+		"address":"304 East Hill Street, Champaign",
+		"value":"1",
+		"latitude":"40.119541",
+		"longitude":"-88.2349629"
 	},
 	{
-		"date":"July 11, 2012",
-		"address":"615 Doisy Lane, Champaign"
+		"date":"8/25/2012",
+		"address":"306 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.110443",
+		"longitude":"-88.234443"
 	},
 	{
-		"date":"April 5, 2009",
-		"address":"621 Crescent Drive, Champaign"
+		"date":"5/7/2009",
+		"address":"308 South 1st Street, Champaign",
+		"value":"1",
+		"latitude":"40.113718",
+		"longitude":"-88.238484"
 	},
 	{
-		"date":"March 23, 2011",
-		"address":"621 East Green Street, Champaign"
+		"date":"9/14/2010",
+		"address":"308 South 1st Street, Champaign",
+		"value":"1",
+		"latitude":"40.113718",
+		"longitude":"-88.238484"
 	},
 	{
-		"date":"March 23, 2011",
-		"address":"623 East Green Street, Champaign"
+		"date":"3/25/2012",
+		"address":"309 East Daniel Street, Champaign",
+		"value":"1",
+		"latitude":"40.107665",
+		"longitude":"-88.234215"
 	},
 	{
-		"date":"March 23, 2011",
-		"address":"625 East Green Street, Champaign"
+		"date":"10/11/2013",
+		"address":"309 South Locust Street, Champaign",
+		"value":"1",
+		"latitude":"40.114593",
+		"longitude":"-88.239323"
 	},
 	{
-		"date":"March 23, 2011",
-		"address":"627 East Green Street, Champaign"
+		"date":"9/24/2012",
+		"address":"310 East Chalmers Street, Champaign",
+		"value":"1",
+		"latitude":"40.106871",
+		"longitude":"-88.234318"
 	},
 	{
-		"date":"March 23, 2011",
-		"address":"629 East Green Street, Champaign"
+		"date":"4/11/2011",
+		"address":"310 Kenwood Road, Champaign",
+		"value":"1",
+		"latitude":"40.1134559",
+		"longitude":"-88.2860836"
 	},
 	{
-		"date":"March 23, 2011",
-		"address":"631 East Green Street, Champaign"
+		"date":"4/13/2011",
+		"address":"310 Kenwood Road, Champaign",
+		"value":"1",
+		"latitude":"40.1134559",
+		"longitude":"-88.2860836"
 	},
 	{
-		"date":"June 6, 2013",
-		"address":"705 West Church Street, Champaign"
+		"date":"5/10/2014",
+		"address":"310 South Prospect Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.113503",
+		"longitude":"-88.257453"
 	},
 	{
-		"date":"December 16, 2010",
-		"address":"706 Phoenix Drive, Champaign"
+		"date":"3/27/2012",
+		"address":"3104 Sylvan Drive, Champaign",
+		"value":"1",
+		"latitude":"40.107766",
+		"longitude":"-88.298203"
 	},
 	{
-		"date":"August 13, 2010",
-		"address":"710 Tawney Court, Champaign"
+		"date":"8/9/2009",
+		"address":"311 South Prairie Street, Champaign",
+		"value":"1",
+		"latitude":"40.113281",
+		"longitude":"-88.248915"
 	},
 	{
-		"date":"March 23, 2011",
-		"address":"711 South Wright Street, Champaign"
+		"date":"7/21/2011",
+		"address":"313 North Fair Street, Champaign",
+		"value":"1",
+		"latitude":"40.1193",
+		"longitude":"-88.272679"
 	},
 	{
-		"date":"February 1, 2011",
-		"address":"712 Sherwood Terrace, Champaign"
+		"date":"2/8/2011",
+		"address":"313 North Mattis Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.119051",
+		"longitude":"-88.277525"
 	},
 	{
-		"date":"December 1, 2012",
-		"address":"712 West Church Street, Champaign"
+		"date":"8/5/2009",
+		"address":"3204 Brentwood Drive, Champaign",
+		"value":"1",
+		"latitude":"40.106569",
+		"longitude":"-88.298342"
 	},
 	{
-		"date":"December 29, 2009",
-		"address":"715 Kenwood Road, Champaign"
+		"date":"9/18/2010",
+		"address":"3210 Ridgewood Court, Champaign",
+		"value":"1",
+		"latitude":"40.1105672",
+		"longitude":"-88.296632"
 	},
 	{
-		"date":"June 9, 2012",
-		"address":"716 Breen Drive, Champaign"
+		"date":"10/19/2010",
+		"address":"3215 Kimberly Drive, Champaign",
+		"value":"1",
+		"latitude":"40.110985",
+		"longitude":"-88.300771"
 	},
 	{
-		"date":"September 11, 2012",
-		"address":"8 Mcdonald Court, Champaign"
+		"date":"10/21/2011",
+		"address":"33 East Bradley Avenue, Champaign",
+		"value":"2",
+		"latitude":"40.12704",
+		"longitude":"-88.2418579"
 	},
 	{
-		"date":"October 9, 2009",
-		"address":"804 Sherwood Terrace, Champaign"
+		"date":"11/17/2011",
+		"address":"3311 Philo Road, Urbana",
+		"value":"1",
+		"latitude":"40.0838535",
+		"longitude":"-88.1905315"
 	},
 	{
-		"date":"September 8, 2010",
-		"address":"805 Richards Lane, Champaign"
+		"date":"1/12/2012",
+		"address":"3429 Stoneway Court, Champaign",
+		"value":"1",
+		"latitude":"40.13098",
+		"longitude":"-88.302339"
 	},
 	{
-		"date":"September 28, 2009",
-		"address":"805 Stratford Drive, Champaign"
+		"date":"7/13/2011",
+		"address":"3746 Summer Sage Court, Champaign",
+		"value":"1",
+		"latitude":"40.127353",
+		"longitude":"-88.3076279"
 	},
 	{
-		"date":"May 10, 2013",
-		"address":"805 North Prospect Avenue, Champaign"
+		"date":"5/29/2009",
+		"address":"4 Rainbow Court, Urbana",
+		"value":"3",
+		"latitude":"40.1037419",
+		"longitude":"-88.18353"
 	},
 	{
-		"date":"July 20, 2011",
-		"address":"809 North Neil Street, Champaign"
+		"date":"11/16/2013",
+		"address":"40 East Springfield Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.112846",
+		"longitude":"-88.240661"
 	},
 	{
-		"date":"October 20, 2013",
-		"address":"901 Berwick Drive, Champaign"
+		"date":"8/7/2014",
+		"address":"401 Dale Lane, Urbana",
+		"value":"1",
+		"latitude":"40.1148729",
+		"longitude":"-88.1805895"
 	},
 	{
-		"date":"February 17, 2009",
-		"address":"902 East University Avenue, Urbana"
+		"date":"8/17/2013",
+		"address":"401 East Daniel Street, Champaign",
+		"value":"1",
+		"latitude":"40.107625",
+		"longitude":"-88.233203"
 	},
 	{
-		"date":"November 2, 2009",
-		"address":"903 North Walnut Street, Champaign"
+		"date":"3/24/2009",
+		"address":"401 East John Street, Champaign",
+		"value":"1",
+		"latitude":"40.1087236",
+		"longitude":"-88.2331864"
 	},
 	{
-		"date":"August 16, 2010",
-		"address":"903 North Walnut Street, Champaign"
+		"date":"7/3/2009",
+		"address":"402 South Elm Street, Champaign",
+		"value":"1",
+		"latitude":"40.1124221",
+		"longitude":"-88.2500617"
 	},
 	{
-		"date":"July 19, 2013",
-		"address":"905 South Locust Street, Champaign"
+		"date":"6/9/2008",
+		"address":"403 East Main Street, Urbana",
+		"value":"1",
+		"latitude":"40.112338",
+		"longitude":"-88.20332"
 	},
 	{
-		"date":"July 28, 2009",
-		"address":"907 North Walnut Street, Champaign"
+		"date":"7/29/2012",
+		"address":"403 West Oregon Street, Urbana",
+		"value":"1",
+		"latitude":"40.107264",
+		"longitude":"-88.212098"
 	},
 	{
-		"date":"July 25, 2009",
-		"address":"908 West Church Street, Champaign"
+		"date":"10/26/2011",
+		"address":"403 West University Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.115868",
+		"longitude":"-88.2113762"
 	},
 	{
-		"date":"April 17, 2012",
-		"address":"911 South 4th Street, Champaign"
+		"date":"4/1/2008",
+		"address":"403 West University Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.115868",
+		"longitude":"-88.2113762"
 	},
 	{
-		"date":"April 17, 2011",
-		"address":"913 West White Street, Champaign"
+		"date":"4/20/2013",
+		"address":"405 East Elm Street, Urbana",
+		"value":"1",
+		"latitude":"40.111448",
+		"longitude":"-88.203056"
 	},
 	{
-		"date":"June 23, 2013",
-		"address":"915 West Bradley Avenue, Champaign"
+		"date":"9/25/2009",
+		"address":"405 North State Street, Champaign",
+		"value":"1",
+		"latitude":"40.1198229",
+		"longitude":"-88.247197"
 	},
 	{
-		"date":"March 19, 2011",
-		"address":"917 West Beardsley Avenue, Champaign"
+		"date":"9/7/2009",
+		"address":"405 West Beardsley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.126151",
+		"longitude":"-88.248944"
 	},
 	{
-		"date":"October 24, 2009",
-		"address":"921 West Vine Street, Champaign"
+		"date":"9/8/2009",
+		"address":"405 West Beardsley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.126151",
+		"longitude":"-88.248944"
 	},
 	{
-		"date":"February 26, 2008",
-		"address":"601 Guardian Drive, Urbana"
+		"date":"10/20/2012",
+		"address":"405 West White Street, Champaign",
+		"value":"1",
+		"latitude":"40.113995",
+		"longitude":"-88.249155"
 	},
 	{
-		"date":"March 3, 2008",
-		"address":"2009 Philo Road, Urbana"
+		"date":"12/26/2010",
+		"address":"406 East Stoughton Street, Champaign",
+		"value":"1",
+		"latitude":"40.113741",
+		"longitude":"-88.232799"
 	},
 	{
-		"date":"March 19, 2008",
-		"address":"702 South Mccullough Street, Urbana"
+		"date":"8/18/2011",
+		"address":"406 North Carson Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.119766",
+		"longitude":"-88.271172"
 	},
 	{
-		"date":"April 1, 2008",
-		"address":"403 West University Avenue, Urbana"
+		"date":"4/15/2012",
+		"address":"407 South Prairie Street, Champaign",
+		"value":"1",
+		"latitude":"40.111935",
+		"longitude":"-88.248682"
 	},
 	{
-		"date":"April 3, 2008",
-		"address":"1307 East Florida Avenue, Urbana"
+		"date":"4/12/2013",
+		"address":"407 South State Street, Champaign",
+		"value":"1",
+		"latitude":"40.111876",
+		"longitude":"-88.24726"
 	},
 	{
-		"date":"April 4, 2008",
-		"address":"1901 North Lincoln Avenue, Urbana"
+		"date":"10/28/2013",
+		"address":"408 West Springfield Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.112561",
+		"longitude":"-88.212393"
 	},
 	{
-		"date":"April 26, 2008",
-		"address":"1531 Hunter Street, Urbana"
+		"date":"11/29/2009",
+		"address":"410 East Church Street, Champaign",
+		"value":"1",
+		"latitude":"40.118597",
+		"longitude":"-88.232581"
 	},
 	{
-		"date":"April 26, 2008",
-		"address":"909 South Lierman Avenue, Urbana"
+		"date":"4/5/2014",
+		"address":"410 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.110554",
+		"longitude":"-88.232373"
 	},
 	{
-		"date":"April 30, 2008",
-		"address":"431 East Fairlawn Drive, Urbana"
+		"date":"10/30/2012",
+		"address":"411 Louisiana Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.127742",
+		"longitude":"-88.249448"
 	},
 	{
-		"date":"May 6, 2008",
-		"address":"1602 East University Avenue, Urbana"
+		"date":"1/19/2013",
+		"address":"412 East Columbia Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.12147",
+		"longitude":"-88.232349"
 	},
 	{
-		"date":"May 7, 2008",
-		"address":"412 West Elm Street, Urbana"
+		"date":"8/4/2010",
+		"address":"412 Luria Lane, Champaign",
+		"value":"1",
+		"latitude":"40.154628",
+		"longitude":"-88.252097"
 	},
 	{
-		"date":"May 15, 2008",
-		"address":"2507 Prairie Green Drive, Urbana"
+		"date":"5/7/2008",
+		"address":"412 West Elm Street, Urbana",
+		"value":"1",
+		"latitude":"40.111754",
+		"longitude":"-88.212978"
 	},
 	{
-		"date":"May 18, 2008",
-		"address":"1723 East Florida Avenue, Urbana"
+		"date":"3/25/2014",
+		"address":"422 East Bradley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1272771",
+		"longitude":"-88.2351107"
 	},
 	{
-		"date":"May 22, 2008",
-		"address":"1406 Lincolnwood Drive, Urbana"
+		"date":"11/7/2009",
+		"address":"429 East Fairlawn Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1037572",
+		"longitude":"-88.2028586"
 	},
 	{
-		"date":"May 22, 2008",
-		"address":"2404 North Shore Drive, Urbana"
+		"date":"4/30/2008",
+		"address":"431 East Fairlawn Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1037574",
+		"longitude":"-88.2028372"
 	},
 	{
-		"date":"May 29, 2008",
-		"address":"1302 West Dublin Street, Urbana"
+		"date":"1/14/2011",
+		"address":"5 Hill Street Court, Urbana",
+		"value":"1",
+		"latitude":"40.118516",
+		"longitude":"-88.221283"
 	},
 	{
-		"date":"June 9, 2008",
-		"address":"403 East Main Street, Urbana"
+		"date":"10/1/2009",
+		"address":"501 Mitchell Court, Champaign",
+		"value":"1",
+		"latitude":"40.110982",
+		"longitude":"-88.291563"
 	},
 	{
-		"date":"June 10, 2008",
-		"address":"1106 East Delaware Avenue, Urbana"
+		"date":"10/6/2010",
+		"address":"501 North Neil Street, Champaign",
+		"value":"1",
+		"latitude":"40.1203852",
+		"longitude":"-88.2438244"
 	},
 	{
-		"date":"June 18, 2008",
-		"address":"2406 Prairie Green Drive, Urbana"
+		"date":"11/9/2008",
+		"address":"502 South Lierman Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1101086",
+		"longitude":"-88.188746"
 	},
 	{
-		"date":"July 23, 2008",
-		"address":"2504 Prairie Green Drive, Urbana"
+		"date":"12/15/2010",
+		"address":"503 East Bradley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.126994",
+		"longitude":"-88.231581"
 	},
 	{
-		"date":"July 29, 2008",
-		"address":"906 South Maple Street, Urbana"
+		"date":"10/20/2011",
+		"address":"503 East McHenry Street, Urbana",
+		"value":"1",
+		"latitude":"40.087555",
+		"longitude":"-88.201274"
 	},
 	{
-		"date":"September 2, 2008",
-		"address":"2017 Philo Road, Urbana"
+		"date":"8/16/2009",
+		"address":"503 East Stoughton Street, Champaign",
+		"value":"1",
+		"latitude":"40.113199",
+		"longitude":"-88.231616"
 	},
 	{
-		"date":"September 6, 2008",
-		"address":"904 North Broadway Avenue, Urbana"
+		"date":"6/20/2012",
+		"address":"505 North Edwin Street, Champaign",
+		"value":"1",
+		"latitude":"40.120784",
+		"longitude":"-88.266543"
 	},
 	{
-		"date":"November 3, 2008",
-		"address":"1002 South Race Street, Urbana"
+		"date":"1/25/2010",
+		"address":"505 South 4th Street, Champaign",
+		"value":"1",
+		"latitude":"40.112082",
+		"longitude":"-88.233956"
 	},
 	{
-		"date":"November 9, 2008",
-		"address":"502 South Lierman Avenue, Urbana"
+		"date":"4/14/2010",
+		"address":"505 South 4th Street, Champaign",
+		"value":"1",
+		"latitude":"40.112082",
+		"longitude":"-88.233956"
 	},
 	{
-		"date":"December 3, 2008",
-		"address":"1207 West Hill Street, Urbana"
+		"date":"12/23/2009",
+		"address":"505 South Dodson Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1067899",
+		"longitude":"-88.176487"
 	},
 	{
-		"date":"December 8, 2008",
-		"address":"1505 South Curtiss Drive, Urbana"
+		"date":"4/2/2010",
+		"address":"505 South Neil Street, Champaign",
+		"value":"1",
+		"latitude":"40.1111456",
+		"longitude":"-88.2441689"
 	},
 	{
-		"date":"December 19, 2008",
-		"address":"201 South Dodson Drive, Urbana"
+		"date":"2/5/2014",
+		"address":"506 East Michigan Avenue, Urbana",
+		"value":"2",
+		"latitude":"40.1018626",
+		"longitude":"-88.2015359"
 	},
 	{
-		"date":"December 19, 2008",
-		"address":"927 North Linview Avenue, Urbana"
+		"date":"11/23/2009",
+		"address":"507 Mitchell Court, Champaign",
+		"value":"1",
+		"latitude":"40.11038",
+		"longitude":"-88.29156"
 	},
 	{
-		"date":"December 25, 2008",
-		"address":"1106 West Stoughton Street, Urbana"
+		"date":"5/3/2012",
+		"address":"507 West White Street, Champaign",
+		"value":"1",
+		"latitude":"40.114101",
+		"longitude":"-88.251038"
 	},
 	{
-		"date":"January 12, 2009",
-		"address":"1105 East Harding Drive, Urbana"
+		"date":"8/4/2013",
+		"address":"509 East Clark Street, Champaign",
+		"value":"1",
+		"latitude":"40.115118",
+		"longitude":"-88.230909"
 	},
 	{
-		"date":"January 28, 2009",
-		"address":"1601 North Lincoln Avenue, Urbana"
+		"date":"11/7/2009",
+		"address":"510 East Michigan Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.102432",
+		"longitude":"-88.200978"
 	},
 	{
-		"date":"January 29, 2009",
-		"address":"1708 South Vine Street, Urbana"
+		"date":"3/27/2012",
+		"address":"511 Alabama Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.128562",
+		"longitude":"-88.2512409"
 	},
 	{
-		"date":"February 15, 2009",
-		"address":"1207 East Florida Avenue, Urbana"
+		"date":"7/3/2010",
+		"address":"512 South Westlawn Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.110838",
+		"longitude":"-88.270961"
 	},
 	{
-		"date":"February 16, 2009",
-		"address":"1200 Eastern Drive, Urbana"
+		"date":"8/11/2012",
+		"address":"515 Bloomington Road, Champaign",
+		"value":"1",
+		"latitude":"40.129103",
+		"longitude":"-88.251595"
 	},
 	{
-		"date":"February 17, 2009",
-		"address":"902 East University Avenue, Urbana"
+		"date":"5/27/2014",
+		"address":"523 Nathaniel Burch Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1277233",
+		"longitude":"-88.2322922"
 	},
 	{
-		"date":"March 1, 2009",
-		"address":"115 North Webber Street, Urbana"
+		"date":"6/15/2009",
+		"address":"53 East John Street, Champaign",
+		"value":"1",
+		"latitude":"40.108724",
+		"longitude":"-88.239828"
 	},
 	{
-		"date":"March 30, 2009",
-		"address":"601 Guardian Drive, Urbana"
+		"date":"1/13/2012",
+		"address":"57 Chalmers Street, Champaign",
+		"value":"1",
+		"latitude":"40.1064959",
+		"longitude":"-88.2415462"
 	},
 	{
-		"date":"April 12, 2009",
-		"address":"603 West Green Street, Urbana"
+		"date":"7/11/2009",
+		"address":"57 East John Street, Champaign",
+		"value":"1",
+		"latitude":"40.108701",
+		"longitude":"-88.239378"
 	},
 	{
-		"date":"May 1, 2009",
-		"address":"1104 East Main Street, Urbana"
+		"date":"5/11/2012",
+		"address":"58 East Armory Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.105711",
+		"longitude":"-88.239463"
 	},
 	{
-		"date":"May 11, 2009",
-		"address":"1205 West Bradley Avenue, Urbana"
+		"date":"8/27/2012",
+		"address":"601 Crescent Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1101403",
+		"longitude":"-88.2813743"
 	},
 	{
-		"date":"May 18, 2009",
-		"address":"106 North Webber Street, Urbana"
+		"date":"10/4/2010",
+		"address":"601 Guardian Drive, Urbana",
+		"value":"1",
+		"latitude":"40.118044",
+		"longitude":"-88.185233"
 	},
 	{
-		"date":"May 29, 2009",
-		"address":"4 Rainbow Court, Urbana"
+		"date":"2/26/2008",
+		"address":"601 Guardian Drive, Urbana",
+		"value":"1",
+		"latitude":"40.118044",
+		"longitude":"-88.185233"
 	},
 	{
-		"date":"May 29, 2009",
-		"address":"4 Rainbow Court, Urbana"
+		"date":"3/30/2009",
+		"address":"601 Guardian Drive, Urbana",
+		"value":"1",
+		"latitude":"40.118044",
+		"longitude":"-88.185233"
 	},
 	{
-		"date":"May 29, 2009",
-		"address":"4 Rainbow Court, Urbana"
+		"date":"6/3/2013",
+		"address":"601 Guardian Drive, Urbana",
+		"value":"1",
+		"latitude":"40.118044",
+		"longitude":"-88.185233"
 	},
 	{
-		"date":"June 10, 2009",
-		"address":"1006 Smith Road, Urbana"
+		"date":"8/3/2011",
+		"address":"601 Guardian Drive, Urbana",
+		"value":"1",
+		"latitude":"40.118044",
+		"longitude":"-88.185233"
 	},
 	{
-		"date":"June 11, 2009",
-		"address":"711 Wabash Avenue, Urbana"
+		"date":"12/11/2009",
+		"address":"601 Lauterbur Lane, Champaign",
+		"value":"1",
+		"latitude":"40.15563",
+		"longitude":"-88.253895"
 	},
 	{
-		"date":"June 13, 2009",
-		"address":"1413 Ivanhoe Way, Urbana"
+		"date":"2/2/2009",
+		"address":"602 West Marketview Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1378929",
+		"longitude":"-88.2529629"
 	},
 	{
-		"date":"June 16, 2009",
-		"address":"1517 East Florida Avenue, Urbana"
+		"date":"4/12/2009",
+		"address":"603 West Green Street, Urbana",
+		"value":"1",
+		"latitude":"40.110394",
+		"longitude":"-88.214966"
 	},
 	{
-		"date":"June 28, 2009",
-		"address":"1001 South Lierman Avenue, Urbana"
+		"date":"5/2/2013",
+		"address":"604 East Washington Street, Champaign",
+		"value":"1",
+		"latitude":"40.120525",
+		"longitude":"-88.229987"
 	},
 	{
-		"date":"July 7, 2009",
-		"address":"Lincoln Square, 402 South Race Street, Urbana"
+		"date":"10/22/2013",
+		"address":"605 East White Street, Champaign",
+		"value":"1",
+		"latitude":"40.1144224",
+		"longitude":"-88.2303584"
 	},
 	{
-		"date":"July 7, 2009",
-		"address":"909 North Harvey Street, Urbana"
+		"date":"12/23/2013",
+		"address":"605 West Michigan Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.101566",
+		"longitude":"-88.215285"
 	},
 	{
-		"date":"July 14, 2009",
-		"address":"912 South Lierman Avenue, Urbana"
+		"date":"5/10/2011",
+		"address":"606 North Prospect Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.121691",
+		"longitude":"-88.257578"
 	},
 	{
-		"date":"July 16, 2009",
-		"address":"303 South Busey Avenue, Urbana"
+		"date":"6/10/2011",
+		"address":"608 East Colorado Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.094969",
+		"longitude":"-88.200192"
 	},
 	{
-		"date":"July 25, 2009",
-		"address":"908 West Church Street, Urbana"
+		"date":"4/25/2012",
+		"address":"611 West Oregon Street, Urbana",
+		"value":"1",
+		"latitude":"40.107185",
+		"longitude":"-88.215768"
 	},
 	{
-		"date":"September 3, 2009",
-		"address":"705 North Goodwin Avenue, Urbana"
+		"date":"1/3/2012",
+		"address":"612 East Beardsley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.126545",
+		"longitude":"-88.229424"
 	},
 	{
-		"date":"September 30, 2009",
-		"address":"1602 Butzow Drive, Urbana"
+		"date":"8/9/2014",
+		"address":"614 Dogwood Drive, Champaign",
+		"value":"1",
+		"latitude":"40.110134",
+		"longitude":"-88.297253"
 	},
 	{
-		"date":"October 4, 2009",
-		"address":"1209 East Main Street, Urbana"
+		"date":"7/11/2012",
+		"address":"615 Doisy Lane, Champaign",
+		"value":"1",
+		"latitude":"40.1503469",
+		"longitude":"-88.2548489"
 	},
 	{
-		"date":"October 20, 2009",
-		"address":"1005 North Cunningham Avenue, Urbana"
+		"date":"4/5/2009",
+		"address":"621 Crescent Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1099594",
+		"longitude":"-88.2813722"
 	},
 	{
-		"date":"October 31, 2009",
-		"address":"1006 East Kerr Avenue, Urbana"
+		"date":"3/23/2011",
+		"address":"621 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.110083",
+		"longitude":"-88.229496"
 	},
 	{
-		"date":"November 7, 2009",
-		"address":"429 East Fairlawn Drive, Urbana"
+		"date":"3/23/2011",
+		"address":"623 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.1102799",
+		"longitude":"-88.2298014"
 	},
 	{
-		"date":"November 7, 2009",
-		"address":"510 East Michigan Avenue, Urbana"
+		"date":"3/23/2011",
+		"address":"625 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.110084",
+		"longitude":"-88.229381"
 	},
 	{
-		"date":"November 23, 2009",
-		"address":"2014 East Michigan Avenue, Urbana"
+		"date":"3/23/2011",
+		"address":"625 East Green Street, Urbana",
+		"value":"1",
+		"latitude":"40.1108394",
+		"longitude":"-88.2004705"
 	},
 	{
-		"date":"December 11, 2009",
-		"address":"1102 South Lincoln Avenue, Urbana"
+		"date":"3/23/2011",
+		"address":"627 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.110085",
+		"longitude":"-88.229304"
 	},
 	{
-		"date":"December 23, 2009",
-		"address":"505 South Dodson Drive, Urbana"
+		"date":"3/23/2011",
+		"address":"629 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.110086",
+		"longitude":"-88.229227"
 	},
 	{
-		"date":"December 30, 2009",
-		"address":"808 West Stoughton Street, Urbana"
+		"date":"3/23/2011",
+		"address":"631 East Green Street, Champaign",
+		"value":"1",
+		"latitude":"40.1101303",
+		"longitude":"-88.2293754"
 	},
 	{
-		"date":"February 1, 2010",
-		"address":"2310 Country Squire Drive, Urbana"
+		"date":"6/17/2014",
+		"address":"702 Crescent Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1090366",
+		"longitude":"-88.2811429"
 	},
 	{
-		"date":"March 31, 2010",
-		"address":"909 South Lierman Avenue, Urbana"
+		"date":"3/19/2008",
+		"address":"702 South Mccullough Street, Urbana",
+		"value":"1",
+		"latitude":"40.107328",
+		"longitude":"-88.2129099"
 	},
 	{
-		"date":"April 15, 2010",
-		"address":"1405 Stout Drive, Urbana"
+		"date":"2/22/2013",
+		"address":"702 West Elm Street, Urbana",
+		"value":"1",
+		"latitude":"40.111749",
+		"longitude":"-88.216487"
 	},
 	{
-		"date":"May 20, 2010",
-		"address":"1202 East Harding Drive, Urbana"
+		"date":"7/6/2012",
+		"address":"703 Colorado Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.0946817",
+		"longitude":"-88.1986862"
 	},
 	{
-		"date":"May 20, 2010",
-		"address":"1306 Silver Street, Urbana"
+		"date":"2/28/2014",
+		"address":"703 Haines Boulevard, Champaign",
+		"value":"1",
+		"latitude":"40.104402",
+		"longitude":"-88.254788"
 	},
 	{
-		"date":"May 28, 2010",
-		"address":"814 West Stoughton Street, Urbana"
+		"date":"1/13/2011",
+		"address":"704 West Washington Street, Urbana",
+		"value":"1",
+		"latitude":"40.1057149",
+		"longitude":"-88.216393"
 	},
 	{
-		"date":"June 16, 2010",
-		"address":"803 North Harvey Street, Urbana"
+		"date":"6/12/2014",
+		"address":"705 Kenwood Road, Champaign",
+		"value":"1",
+		"latitude":"40.108725",
+		"longitude":"-88.286911"
 	},
 	{
-		"date":"July 29, 2010",
-		"address":"1302 Silver Street, Urbana"
+		"date":"9/3/2009",
+		"address":"705 North Goodwin Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.118956",
+		"longitude":"-88.224321"
 	},
 	{
-		"date":"August 4, 2010",
-		"address":"706 West Bradley Avenue, Urbana"
+		"date":"6/6/2013",
+		"address":"705 West Church Street, Champaign",
+		"value":"1",
+		"latitude":"40.1179739",
+		"longitude":"-88.255133"
 	},
 	{
-		"date":"August 4, 2010",
-		"address":"706 West Bradley Avenue, Urbana"
+		"date":"12/16/2010",
+		"address":"706 Phoenix Drive, Champaign",
+		"value":"1",
+		"latitude":"40.084125",
+		"longitude":"-88.253817"
 	},
 	{
-		"date":"August 8, 2010",
-		"address":"1610 Ivanhoe Way, Urbana"
+		"date":"8/4/2010",
+		"address":"706 West Bradley Avenue, Urbana",
+		"value":"2",
+		"latitude":"40.127756",
+		"longitude":"-88.216984"
 	},
 	{
-		"date":"October 4, 2010",
-		"address":"1208 West Hill Street, Urbana"
+		"date":"8/13/2010",
+		"address":"710 Tawney Court, Champaign",
+		"value":"1",
+		"latitude":"40.128053",
+		"longitude":"-88.227723"
 	},
 	{
-		"date":"October 4, 2010",
-		"address":"601 Guardian Drive, Urbana"
+		"date":"3/23/2011",
+		"address":"711 South Wright Street, Champaign",
+		"value":"1",
+		"latitude":"40.1099093",
+		"longitude":"-88.2295366"
 	},
 	{
-		"date":"October 23, 2010",
-		"address":"711 West Green Street, Urbana"
+		"date":"6/11/2009",
+		"address":"711 Wabash Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.106721",
+		"longitude":"-88.196942"
 	},
 	{
-		"date":"November 3, 2010",
-		"address":"1303 North Cunningham Avenue, Urbana"
+		"date":"10/23/2010",
+		"address":"711 West Green Street, Urbana",
+		"value":"1",
+		"latitude":"40.110362",
+		"longitude":"-88.217276"
 	},
 	{
-		"date":"November 5, 2010",
-		"address":"2105 East Pennsylvania Avenue, Urbana"
+		"date":"2/1/2011",
+		"address":"712 Sherwood Terrace, Champaign",
+		"value":"1",
+		"latitude":"40.126108",
+		"longitude":"-88.254279"
 	},
 	{
-		"date":"November 17, 2010",
-		"address":"827 Division Avenue, Urbana"
+		"date":"12/1/2012",
+		"address":"712 West Church Street, Champaign",
+		"value":"1",
+		"latitude":"40.11853",
+		"longitude":"-88.255692"
 	},
 	{
-		"date":"December 15, 2010",
-		"address":"1615 East Florida Avenue, Urbana"
+		"date":"12/29/2009",
+		"address":"715 Kenwood Road, Champaign",
+		"value":"1",
+		"latitude":"40.1079549",
+		"longitude":"-88.287249"
 	},
 	{
-		"date":"January 13, 2011",
-		"address":"704 West Washington Street, Urbana"
+		"date":"6/9/2012",
+		"address":"716 Breen Drive, Champaign",
+		"value":"1",
+		"latitude":"40.094358",
+		"longitude":"-88.255431"
 	},
 	{
-		"date":"January 14, 2011",
-		"address":"5 Hill Street Court, Urbana"
+		"date":"7/18/2012",
+		"address":"720 South Broadway Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.105949",
+		"longitude":"-88.206889"
 	},
 	{
-		"date":"January 31, 2011",
-		"address":"1601 North Lincoln Avenue, Urbana"
+		"date":"9/11/2012",
+		"address":"8 Mcdonald Court, Champaign",
+		"value":"1",
+		"latitude":"40.090624",
+		"longitude":"-88.262461"
 	},
 	{
-		"date":"February 21, 2011",
-		"address":"1103 West Hill Street, Urbana"
+		"date":"6/16/2010",
+		"address":"803 North Harvey Street, Urbana",
+		"value":"1",
+		"latitude":"40.1196039",
+		"longitude":"-88.2219368"
 	},
 	{
-		"date":"March 15, 2011",
-		"address":"207 South Cottage Grove Avenue, Urbana"
+		"date":"5/27/2014",
+		"address":"803 Sunny Lane, Urbana",
+		"value":"1",
+		"latitude":"40.106186",
+		"longitude":"-88.172881"
 	},
 	{
-		"date":"March 23, 2011",
-		"address":"625 East Green Street, Urbana"
+		"date":"11/13/2013",
+		"address":"803 West Green Street, Urbana",
+		"value":"1",
+		"latitude":"40.11034",
+		"longitude":"-88.21821"
 	},
 	{
-		"date":"April 19, 2011",
-		"address":"2614 South Wadsworth Lane, Urbana"
+		"date":"10/9/2009",
+		"address":"804 Sherwood Terrace, Champaign",
+		"value":"1",
+		"latitude":"40.12607",
+		"longitude":"-88.256424"
 	},
 	{
-		"date":"April 20, 2011",
-		"address":"2004 Vawter Street, Urbana"
+		"date":"5/10/2013",
+		"address":"805 North Prospect Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.123364",
+		"longitude":"-88.25828"
 	},
 	{
-		"date":"April 25, 2011",
-		"address":"1605 Golfview Drive, Urbana"
+		"date":"9/8/2010",
+		"address":"805 Richards Lane, Champaign",
+		"value":"1",
+		"latitude":"40.093081",
+		"longitude":"-88.256041"
 	},
 	{
-		"date":"April 28, 2011",
-		"address":"1208 North Wright Street, Urbana"
+		"date":"9/28/2009",
+		"address":"805 Stratford Drive, Champaign",
+		"value":"1",
+		"latitude":"40.107476",
+		"longitude":"-88.291901"
 	},
 	{
-		"date":"May 10, 2011",
-		"address":"2204 Country Squire Drive, Urbana"
+		"date":"12/5/2011",
+		"address":"808 North Lincoln Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.119838",
+		"longitude":"-88.219115"
 	},
 	{
-		"date":"May 27, 2011",
-		"address":"1700 East Washington Street, Urbana"
+		"date":"3/7/2014",
+		"address":"808 South 1st Street, Champaign",
+		"value":"1",
+		"latitude":"40.108334",
+		"longitude":"-88.238419"
 	},
 	{
-		"date":"June 10, 2011",
-		"address":"608 East Colorado Avenue, Urbana"
+		"date":"12/30/2009",
+		"address":"808 West Stoughton Street, Urbana",
+		"value":"1",
+		"latitude":"40.113779",
+		"longitude":"-88.218514"
 	},
 	{
-		"date":"June 13, 2011",
-		"address":"901 East Washington Street, Urbana"
+		"date":"7/20/2011",
+		"address":"809 North Neil Street, Champaign",
+		"value":"1",
+		"latitude":"40.123787",
+		"longitude":"-88.244381"
 	},
 	{
-		"date":"June 18, 2011",
-		"address":"3 Buena Vista Court, Urbana"
+		"date":"10/8/2012",
+		"address":"813 West Springfield Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.112527",
+		"longitude":"-88.219"
 	},
 	{
-		"date":"July 8, 2011",
-		"address":"910 North Busey Avenue, Urbana"
+		"date":"5/28/2010",
+		"address":"814 West Stoughton Street, Urbana",
+		"value":"1",
+		"latitude":"40.113788",
+		"longitude":"-88.219122"
 	},
 	{
-		"date":"July 20, 2011",
-		"address":"1012 Austin Drive, Urbana"
+		"date":"11/17/2010",
+		"address":"827 Division Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1204867",
+		"longitude":"-88.2052604"
 	},
 	{
-		"date":"August 3, 2011",
-		"address":"601 Guardian Drive, Urbana"
+		"date":"10/20/2013",
+		"address":"901 Berwick Drive, Champaign",
+		"value":"1",
+		"latitude":"40.125485",
+		"longitude":"-88.29689"
 	},
 	{
-		"date":"August 9, 2011",
-		"address":"1306 Silver Street, Urbana"
+		"date":"4/24/2012",
+		"address":"901 Burkwood Drive, Urbana",
+		"value":"1",
+		"latitude":"40.096564",
+		"longitude":"-88.196915"
 	},
 	{
-		"date":"October 20, 2011",
-		"address":"503 East McHenry Street, Urbana"
+		"date":"6/13/2011",
+		"address":"901 East Washington Street, Urbana",
+		"value":"1",
+		"latitude":"40.105406",
+		"longitude":"-88.1977129"
 	},
 	{
-		"date":"October 26, 2011",
-		"address":"403 West University Avenue, Urbana"
+		"date":"2/17/2009",
+		"address":"902 East University Avenue, Urbana",
+		"value":"2",
+		"latitude":"40.116611",
+		"longitude":"-88.197198"
 	},
 	{
-		"date":"October 31, 2011",
-		"address":"102 Meadow Drive, Urbana"
+		"date":"11/2/2009",
+		"address":"903 North Walnut Street, Champaign",
+		"value":"1",
+		"latitude":"40.124383",
+		"longitude":"-88.241446"
 	},
 	{
-		"date":"November 17, 2011",
-		"address":"3311 Philo Road, Urbana"
+		"date":"8/16/2010",
+		"address":"903 North Walnut Street, Champaign",
+		"value":"1",
+		"latitude":"40.124383",
+		"longitude":"-88.241446"
 	},
 	{
-		"date":"December 5, 2011",
-		"address":"808 North Lincoln Avenue, Urbana"
+		"date":"5/31/2014",
+		"address":"904 East Park Street, Urbana",
+		"value":"1",
+		"latitude":"40.117436",
+		"longitude":"-88.196994"
 	},
 	{
-		"date":"December 14, 2011",
-		"address":"1339 North Lincoln Avenue, Urbana"
+		"date":"9/6/2008",
+		"address":"904 North Broadway Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1205997",
+		"longitude":"-88.2075847"
 	},
 	{
-		"date":"December 14, 2011",
-		"address":"2207 Lantern Hill Drive, Urbana"
+		"date":"7/19/2013",
+		"address":"905 South Locust Street, Champaign",
+		"value":"1",
+		"latitude":"40.1072909",
+		"longitude":"-88.240661"
 	},
 	{
-		"date":"December 26, 2011",
-		"address":"2408 North Cunningham Avenue, Urbana"
+		"date":"9/20/2014",
+		"address":"906 North Mckinley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.125082",
+		"longitude":"-88.262338"
 	},
 	{
-		"date":"January 17, 2012",
-		"address":"1603 Hunter Street, Urbana"
+		"date":"7/29/2008",
+		"address":"906 South Maple Street, Urbana",
+		"value":"1",
+		"latitude":"40.104958",
+		"longitude":"-88.201853"
 	},
 	{
-		"date":"January 23, 2012",
-		"address":"908 North Broadway Avenue, Urbana"
+		"date":"3/11/2012",
+		"address":"907 North Busey Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1207459",
+		"longitude":"-88.217329"
 	},
 	{
-		"date":"January 24, 2012",
-		"address":"908 North Broadway Avenue, Urbana"
+		"date":"7/28/2009",
+		"address":"907 North Walnut Street, Champaign",
+		"value":"1",
+		"latitude":"40.124737",
+		"longitude":"-88.241446"
 	},
 	{
-		"date":"February 18, 2012",
-		"address":"1102 Wabash Avenue, Urbana"
+		"date":"1/23/2012",
+		"address":"908 North Broadway Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1210729",
+		"longitude":"-88.2075949"
 	},
 	{
-		"date":"March 11, 2012",
-		"address":"907 North Busey Avenue, Urbana"
+		"date":"1/24/2012",
+		"address":"908 North Broadway Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1210729",
+		"longitude":"-88.2075949"
 	},
 	{
-		"date":"March 16, 2012",
-		"address":"201 North Broadway Avenue, Urbana"
+		"date":"7/25/2009",
+		"address":"908 West Church Street, Champaign",
+		"value":"1",
+		"latitude":"40.118592",
+		"longitude":"-88.258848"
 	},
 	{
-		"date":"March 17, 2012",
-		"address":"213 Central Avenue, Urbana"
+		"date":"7/25/2009",
+		"address":"908 West Church Street, Urbana",
+		"value":"1",
+		"latitude":"40.1184749",
+		"longitude":"-88.220284"
 	},
 	{
-		"date":"March 29, 2012",
-		"address":"2409 Prairie Green Drive, Urbana"
+		"date":"7/7/2009",
+		"address":"909 North Harvey Street, Urbana",
+		"value":"1",
+		"latitude":"40.120795",
+		"longitude":"-88.222275"
 	},
 	{
-		"date":"April 13, 2012",
-		"address":"1407 Wiley Drive, Urbana"
+		"date":"3/31/2010",
+		"address":"909 South Lierman Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1045609",
+		"longitude":"-88.189256"
 	},
 	{
-		"date":"April 13, 2012",
-		"address":"1407 Wiley Drive, Urbana"
+		"date":"4/26/2008",
+		"address":"909 South Lierman Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1045609",
+		"longitude":"-88.189256"
 	},
 	{
-		"date":"April 24, 2012",
-		"address":"1002 North Mathews Avenue, Urbana"
+		"date":"7/8/2011",
+		"address":"910 North Busey Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.120912",
+		"longitude":"-88.216609"
 	},
 	{
-		"date":"April 24, 2012",
-		"address":"901 Burkwood Drive, Urbana"
+		"date":"4/17/2012",
+		"address":"911 South 4th Street, Champaign",
+		"value":"1",
+		"latitude":"40.106782",
+		"longitude":"-88.233819"
 	},
 	{
-		"date":"April 25, 2012",
-		"address":"611 West Oregon Street, Urbana"
+		"date":"7/14/2009",
+		"address":"912 South Lierman Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.1055293",
+		"longitude":"-88.1886872"
 	},
 	{
-		"date":"May 20, 2012",
-		"address":"2730 East Castlerock Drive, Urbana"
+		"date":"4/17/2011",
+		"address":"913 West White Street, Champaign",
+		"value":"1",
+		"latitude":"40.11412",
+		"longitude":"-88.259317"
 	},
 	{
-		"date":"May 22, 2012",
-		"address":"1002 South Race Street, Urbana"
+		"date":"6/23/2013",
+		"address":"915 West Bradley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.126917",
+		"longitude":"-88.2595709"
 	},
 	{
-		"date":"May 25, 2012",
-		"address":"2004 East Amber Lane, Urbana"
+		"date":"5/26/2013",
+		"address":"916 West Eads Street, Urbana",
+		"value":"1",
+		"latitude":"40.12346",
+		"longitude":"-88.221244"
 	},
 	{
-		"date":"July 3, 2012",
-		"address":"1713 Melrose Valley Court, Urbana"
+		"date":"3/19/2011",
+		"address":"917 West Beardsley Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1260933",
+		"longitude":"-88.2597591"
 	},
 	{
-		"date":"July 6, 2012",
-		"address":"703 Colorado Avenue, Urbana"
+		"date":"10/24/2009",
+		"address":"921 West Vine Street, Champaign",
+		"value":"1",
+		"latitude":"40.121917",
+		"longitude":"-88.259685"
 	},
 	{
-		"date":"July 18, 2012",
-		"address":"720 South Broadway Avenue, Urbana"
+		"date":"12/19/2008",
+		"address":"927 North Linview Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.122773",
+		"longitude":"-88.218535"
 	},
 	{
-		"date":"July 19, 2012",
-		"address":"1505 East Main Street, Urbana"
+		"date":"8/26/2012",
+		"address":"Country Fair Shopping Center, 301 South Mattis Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.114467",
+		"longitude":"-88.2774183"
 	},
 	{
-		"date":"July 19, 2012",
-		"address":"1505 East Main Street, Urbana"
+		"date":"6/27/2014",
+		"address":"Country Fair Shopping Center, 302 South Country Fair Drive, Champaign",
+		"value":"1",
+		"latitude":"40.113548",
+		"longitude":"-88.282547"
 	},
 	{
-		"date":"July 29, 2012",
-		"address":"403 West Oregon Street, Urbana"
+		"date":"7/7/2009",
+		"address":"Lincoln Square, 402 South Race Street, Urbana",
+		"value":"1",
+		"latitude":"40.109723",
+		"longitude":"-88.208539"
 	},
 	{
-		"date":"August 2, 2012",
-		"address":"1505 East Main Street, Urbana"
+		"date":"4/6/2013",
+		"address":"Market Place Shopping Center, 2000 North Neil Street, Champaign",
+		"value":"1",
+		"latitude":"40.1427776",
+		"longitude":"-88.243865"
 	},
 	{
-		"date":"September 2, 2012",
-		"address":"1006 North Broadway Avenue, Urbana"
+		"date":"8/4/2011",
+		"address":"Oak Court, Champaign",
+		"value":"1",
+		"latitude":"40.063418",
+		"longitude":"-88.24251"
 	},
 	{
-		"date":"October 8, 2012",
-		"address":"813 West Springfield Avenue, Urbana"
+		"date":"1/30/2014",
+		"address":"University of Illinois at Urbana-Champaign, 1102 South Goodwin Avenue, Urbana",
+		"value":"1",
+		"latitude":"40.102654",
+		"longitude":"-88.223798"
 	},
 	{
-		"date":"January 8, 2013",
-		"address":"206 West Washington Street, Urbana"
+		"date":"4/12/2009",
+		"address":"University of Illinois at Urbana-Champaign, 1203 South 4th Street, Champaign",
+		"value":"1",
+		"latitude":"40.1035014",
+		"longitude":"-88.2337811"
 	},
 	{
-		"date":"February 22, 2013",
-		"address":"702 West Elm Street, Urbana"
+		"date":"1/29/2014",
+		"address":"University of Illinois at Urbana-Champaign, 1207 West Gregory Drive, Urbana",
+		"value":"1",
+		"latitude":"40.1040174",
+		"longitude":"-88.2247062"
 	},
 	{
-		"date":"March 7, 2013",
-		"address":"1304 East Michigan Avenue, Urbana"
+		"date":"10/14/2009",
+		"address":"University of Illinois at Urbana-Champaign, 201 East Gregory Drive, Champaign",
+		"value":"1",
+		"latitude":"40.1023996",
+		"longitude":"-88.2344842"
 	},
 	{
-		"date":"March 13, 2013",
-		"address":"1004 East Kerr Avenue, Urbana"
+		"date":"2/28/2009",
+		"address":"University of Illinois at Urbana-Champaign, 409 East Chalmers Street, Champaign",
+		"value":"1",
+		"latitude":"40.106469",
+		"longitude":"-88.232343"
 	},
 	{
-		"date":"April 3, 2013",
-		"address":"1607 East Florida Avenue, Urbana"
+		"date":"4/23/2013",
+		"address":"University of Illinois at Urbana-Champaign, 409 East Chalmers Street, Champaign",
+		"value":"1",
+		"latitude":"40.106469",
+		"longitude":"-88.232343"
 	},
 	{
-		"date":"April 6, 2013",
-		"address":"1906 East Amber Lane, Urbana"
+		"date":"7/24/2009",
+		"address":"University of Illinois at Urbana-Champaign, 505 East Armory Avenue, Champaign",
+		"value":"1",
+		"latitude":"40.1046588",
+		"longitude":"-88.2328279"
 	},
 	{
-		"date":"April 20, 2013",
-		"address":"405 East Elm Street, Urbana"
-	},
-	{
-		"date":"April 30, 2013",
-		"address":"1106 East Main Street, Urbana"
-	},
-	{
-		"date":"May 5, 2013",
-		"address":"1107 West Hill Street, Urbana"
-	},
-	{
-		"date":"May 26, 2013",
-		"address":"916 West Eads Street, Urbana"
-	},
-	{
-		"date":"June 3, 2013",
-		"address":"601 Guardian Drive, Urbana"
-	},
-	{
-		"date":"June 11, 2013",
-		"address":"212 Hartle Avenue, Urbana"
-	},
-	{
-		"date":"June 20, 2013",
-		"address":"2510 North Shore Drive, Urbana"
-	},
-	{
-		"date":"June 24, 2013",
-		"address":"1107 East Florida Avenue, Urbana"
-	},
-	{
-		"date":"July 7, 2013",
-		"address":"1002 North Mathews Avenue, Urbana"
-	},
-	{
-		"date":"August 17, 2013",
-		"address":"202 East Green Street, Urbana"
-	},
-	{
-		"date":"August 28, 2013",
-		"address":"1108 Fairview Avenue, Urbana"
-	},
-	{
-		"date":"September 6, 2013",
-		"address":"2201 Country Squire Drive, Urbana"
-	},
-	{
-		"date":"September 8, 2013",
-		"address":"1521 West Church Street, Urbana"
-	},
-	{
-		"date":"October 28, 2013",
-		"address":"408 West Springfield Avenue, Urbana"
-	},
-	{
-		"date":"November 13, 2013",
-		"address":"803 West Green Street, Urbana"
-	},
-	{
-		"date":"November 30, 2013",
-		"address":"1004 West Stoughton Street, Urbana"
-	},
-	{
-		"date":"December 17, 2013",
-		"address":"1011 West University Avenue, Urbana"
-	},
-	{
-		"date":"December 23, 2013",
-		"address":"605 West Michigan Avenue, Urbana"
-	},
-	{
-		"date":"December 24, 2013",
-		"address":"2005 East Vermont Avenue, Urbana"
-	},
-	{
-		"date":"January 12, 2014",
-		"address":"1404 Greenridge Drive, Urbana"
-	},
-	{
-		"date":"January 31, 2014",
-		"address":"106 South Gregory Street, Urbana"
-	},
-	{
-		"date":"January 31, 2014",
-		"address":"2207 Philo Road, Urbana"
-	},
-	{
-		"date":"February 5, 2014",
-		"address":"506 East Michigan Avenue, Urbana"
+		"date":"1/26/2014",
+		"address":"University of Illinois at Urbana-Champaign, 909 South 5th Street, Champaign",
+		"value":"1",
+		"latitude":"40.1071047",
+		"longitude":"-88.2324603"
 	}
 ]

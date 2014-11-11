@@ -11,7 +11,7 @@
     <!-- Leaflet JS -->
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
-    <!-- heatmap -->
+    <!-- Heatmap plugin for leaflet -->
     <script src="js/leaflet-heatmap.js"></script>
     <script src="js/heatmap.min.js"></script>
     <style>
@@ -57,12 +57,13 @@
         var baseLayer = L.tileLayer(
                 'http://{s}.tiles.mapbox.com/v3/actongorton.k4j5opc1/{z}/{x}/{y}.png', {
                     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-                    maxZoom: 18
+                    maxZoom: 20
                 }
         );
 
         // heatmap configuration
         var cfg = {
+            //"scaleRadius": true,
             "radius": 20,
             "maxOpacity": .9,
             "minOpacity": .18,
@@ -70,7 +71,7 @@
             latField: 'latitude',
             lngField: 'longitude',
             valueField: 'value',
-            blur: .5
+            blur: .85
         };
 
         // associate the configuration with the heatmap
@@ -91,6 +92,7 @@
                     var event = {
                         eventDate: data[xx].date,
                         eventAddress: data[xx].address,
+                        eventValue: fire_data.data[x].value
                     };
 
                     info.push(event)
@@ -124,7 +126,9 @@
                             "<b><span class='glyphicon glyphicon-fire' style='color: red; margin-right: 5px;'></span>" +
                             this.options.property[u].eventAddress + "</b><br><span style='font-size: 11px;'>" +
                             this.options.property[u].eventDate +
-                            "</span><br><br>"
+                            "</span><br><br>";
+
+                            // console.log(this.options.property[u].eventAddress + " - " + this.options.property[u].eventDate + " - " + this.options.property[u].eventValue )
                         }
                         $('#infobar').fadeOut('fast');
                         $('#infobar-bottom').html(infobox);
@@ -141,7 +145,7 @@
             iconUrl: 'images/map-marker.png',
             iconSize:     [10, 10],
             shadowSize:   [0, 0],
-            iconAnchor:   [20, 20]
+            iconAnchor:   [0, 0]
         });
 
         for (abc in place_data){
@@ -153,24 +157,26 @@
                 radius: 20,
                 property: place_data[abc].record
             })
-                    .on('mouseover', function(){
-                        var infobox = "";
-                        for (u in this.options.property){
-                            infobox = infobox +
-                            "<b><span class='glyphicon glyphicon-fire' style='color: red; margin-right: 5px;'></span>" +
-                            this.options.property[u].eventAddress + "</b><br><span style='font-size: 11px;'>" +
-                            this.options.property[u].eventDate +
-                            "</span><br><br>"
-                        }
-                        $('#infobar').fadeOut('fast');
-                        $('#infobar-bottom').html(infobox);
-                    });
+                .on('mouseover', function(){
+                    var infobox = "";
+                    for (u in this.options.property){
+                        infobox = infobox +
+                        "<b><span class='glyphicon glyphicon-fire' style='color: red; margin-right: 5px;'></span>" +
+                        this.options.property[u].eventAddress + "</b><br><span style='font-size: 11px;'>" +
+                        this.options.property[u].eventDate +
+                        "</span><br><br>"
+                    }
+                    $('#infobar').fadeOut('fast');
+                    $('#infobar-bottom').html(infobox);
+                });
 
             firePlaceMarkerLayer.push(hzz)
         }
 
         var collectionHeat = L.featureGroup(firePlaceHeatLayer);
         var collectionMarker = L.layerGroup(firePlaceMarkerLayer);
+
+
 
         // load the map
         var map = new L.Map('map-canvas', {
